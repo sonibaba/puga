@@ -7,7 +7,7 @@ module.exports = function (ctx) {
     // --> boot files are part of "main.js"
     boot: [
       'axios',
-      // 'addressbar-color'
+      'addressbar-color'
     ],
 
     css: [
@@ -92,9 +92,7 @@ module.exports = function (ctx) {
         'QExpansionItem',
         'QMarkupTable',
         'QAjaxBar',
-        'QRadio',
-        'QPopupProxy',
-        'QScrollArea'
+        'QRadio'
       ],
 
       directives: [
@@ -105,7 +103,7 @@ module.exports = function (ctx) {
       // Quasar plugins
       plugins: [
         'Notify',
-        // 'AddressbarColor'
+        'AddressbarColor'
       ],
       config: {
         notify: { /* Notify defaults */ }
@@ -128,7 +126,7 @@ module.exports = function (ctx) {
     devServer: {
       // https: true,
       // port: 8080,
-      open: true // opens browser window automatically
+      open: false // opens browser window automatically
     },
 
     // animations: 'all', // --- includes all animations
@@ -151,27 +149,27 @@ module.exports = function (ctx) {
         theme_color: '#027be3',
         icons: [
           {
-            'src': 'statics/icons/voluntariado_png.png',
+            'src': 'statics/icons/puga-icon.png',
             'sizes': '128x128',
             'type': 'image/png'
           },
           {
-            'src': 'statics/icons/voluntariado_png.png',
+            'src': 'statics/icons/puga-icon.png',
             'sizes': '192x192',
             'type': 'image/png'
           },
           {
-            'src': 'statics/icons/voluntariado_png.png',
+            'src': 'statics/icons/puga-icon.png',
             'sizes': '256x256',
             'type': 'image/png'
           },
           {
-            'src': 'statics/icons/voluntariado_png.png',
+            'src': 'statics/icons/puga-icon.png',
             'sizes': '384x384',
             'type': 'image/png'
           },
           {
-            'src': 'statics/icons/voluntariado_png.png',
+            'src': 'statics/icons/puga-icon.png',
             'sizes': '512x512',
             'type': 'image/png'
           }

@@ -13,6 +13,28 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/information/mision_vision.vue') }
     ]
+  },
+  {
+    path: '/location',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/map/location.vue') }
+    ]
+  },
+  {
+    path: '/post_construction',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/post_construction.vue') }
+    ]
+  },
+  {
+    path: '/product/:idProduct',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', 
+        component: () => import('pages/products/product.vue')}
+    ]
   }
 ]
 

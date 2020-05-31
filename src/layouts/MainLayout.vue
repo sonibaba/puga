@@ -3,94 +3,28 @@
     <q-header elevated class="bg-indico-10" v-if="!this.$q.platform.is.mobile">
         <q-toolbar class="GPL__toolbar" style="height: 64px">
           <a title="Puga" href="/"><img
-                  src="../assets/puga.png" width="32" style="width: 52px;"></a> 
-          <q-toolbar-title>Puga</q-toolbar-title>
+                  src="../assets/puga-icon.png" width="32" style="width: 52px;"></a> 
+          <h6>Distribuidora de Cemento y Aceros PUGA</h6>
           <q-space ></q-space>
-          <q-toolbar-title> <q-icon name="local_phone"/>MX (481) - 381 80 97</q-toolbar-title>
+          <h6> <q-icon name="local_phone"/>MX (481) - 381 80 97 &nbsp &nbsp</h6> 
+          <q-btn align="right" to="/shoppingCart" color="orange-14" bordered class="q-mr-xs" :label="'('+count+')'"
+              icon="shopping_cart" />
           <a title="Puga" href="https://web.facebook.com/proyectos.puga"><img
                   src="../assets/facebook_icon.png" width="32" style="width: 32px;"></a> 
         </q-toolbar>
-        <q-toolbar inset>
-          <q-toolbar-title>
-            <q-btn flat  label="Materiales">
-              <q-popup-proxy>
-                <q-banner>
-                    <li><a href="/mision_vision">Block</a></li>
-                    <li><a href="/mision_vision">Ladrillo</a></li>
-                    <li><a href="/mision_vision">Cemento</a></li>
-                    <li><a href="/mision_vision">Pegazulejo</a></li>
-                    <li><a href="/mision_vision">Cal</a></li>
-                    <li><a href="/mision_vision">Detalles</a></li>
-                </q-banner>
-              </q-popup-proxy>
-            </q-btn>
-            <q-btn flat  label="Magueras">
-              <q-popup-proxy>
-                <q-banner>
-                    <li><a href="/mision_vision">Bicapa </a></li>
-                    <li><a href="/mision_vision">Agua</a></li>
-                </q-banner>
-              </q-popup-proxy>
-            </q-btn>
-            <q-btn flat  label="Acero Negro">
-              <q-popup-proxy>
-                <q-banner>
-                    <li><a href="/mision_vision">Varilla</a></li>
-                    <li><a href="/mision_vision">Alambron</a></li>
-                    <li><a href="/mision_vision">Alambre Recocido</a></li>
-                    <li><a href="/mision_vision">Armex</a></li>
-                    <li><a href="/mision_vision">Malla</a></li>
-                </q-banner>
-              </q-popup-proxy>
-            </q-btn>
-            <q-btn flat  label="Clavos">
-              <q-popup-proxy>
-                <q-banner>
-                    <li><a href="/mision_vision">Clavo Estandar</a></li>
-                    <li><a href="/mision_vision">Clavo de Acero</a></li>
-                    <li><a href="/mision_vision">Clavo Reforzado</a></li>
-                    <li><a href="/mision_vision">Clavo paraguas</a></li>
-                </q-banner>
-              </q-popup-proxy>
-            </q-btn>
-            <q-btn flat  label="Cercas">
-              <q-popup-proxy>
-                <q-banner>
-                    <li><a href="/mision_vision">Concertinas</a></li>
-                    <li><a href="/mision_vision">Picos</a></li>
-                    <li><a href="/mision_vision">Malla Ciclónica</a></li>
-                    <li><a href="/mision_vision">Alambre</a></li>
-                    <li><a href="/mision_vision">Cadena</a></li>
-                    <li><a href="/mision_vision">Panel</a></li>
-                    <li><a href="/mision_vision">Abrazaderas</a></li>
-                    <li><a href="/mision_vision">Tapones</a></li>
-                    <li><a href="/mision_vision">Base para Poste</a></li>
-                    <li><a href="/mision_vision">Tubos Galvanizados</a></li>
-                    <li><a href="/mision_vision">Espadas</a></li>
-                    <li><a href="/mision_vision">Bisagra</a></li>
-                    <li><a href="/mision_vision">Riel</a></li>
-                    <li><a href="/mision_vision">Cinta Decoratica</a></li>
-                    <li><a href="/mision_vision">Riel</a></li>
-                </q-banner>
-              </q-popup-proxy>
-            </q-btn>
-            <q-btn flat  label="Laminas y Perfiles">
-              <q-popup-proxy>
-                <q-banner>
-                    <li><a href="/mision_vision">Laminas Calibre 30</a></li>
-                    <li><a href="/mision_vision">Laminas Calibre 28</a></li>
-                    <li><a href="/mision_vision">Galvateja Calibre 26</a></li>
-                    <li><a href="/mision_vision">Caballetes</a></li>
-                    <li><a href="/mision_vision">Canales</a></li>
-                    <li><a href="/mision_vision">Polines</a></li>
-                    <li><a href="/mision_vision">Ptr</a></li>
-                    <li><a href="/mision_vision">Tubo Negro</a></li>
-                </q-banner>
-              </q-popup-proxy>
-            </q-btn>
-            <q-btn flat to="/mision_vision"  label="Herramientas"/>
-          </q-toolbar-title>
-        </q-toolbar>
+            <q-btn flat to="/post_construction" label="Materiales"/>
+ 
+            <q-btn flat  label="Magueras"/>
+ 
+            <q-btn flat  label="Acero Negro"/>            
+ 
+            <q-btn flat  label="Clavos"/>
+ 
+            <q-btn flat  label="Cercas"/>
+ 
+            <q-btn flat  label="Laminas y Perfiles"/>
+ 
+            <q-btn flat label="Herramientas"/>
       </q-header>
 
       <q-header elevated class="bg-indico-10" v-if="this.$q.platform.is.mobile">
@@ -105,7 +39,7 @@
           <q-toolbar-title>Puga</q-toolbar-title>
           <q-space ></q-space>
           <a title="Puga" href="/"><img
-                  src="../assets/puga.png" width="32" style="width: 32px;"></a> 
+                  src="../assets/puga-icon.png" width="32" style="width: 32px;"></a> 
           <!-- <q-toolbar-title> <q-icon name="local_phone"/>MX (481) - 381 80 97</q-toolbar-title>
           <a title="Puga" href="https://web.facebook.com/proyectos.puga"><img
                   src="../assets/facebook_icon.png" width="32" style="width: 32px;"></a>  -->
@@ -229,52 +163,20 @@ export default {
   data () {
     return {
       leftDrawerOpen: false,
-      essentialLinks: [
-        {
-          title: 'Docs',
-          caption: 'quasar.dev',
-          icon: 'school',
-          link: 'https://quasar.dev'
-        },
-        {
-          title: 'Github',
-          caption: 'github.com/quasarframework',
-          icon: 'code',
-          link: 'https://github.com/quasarframework'
-        },
-        {
-          title: 'Discord Chat Channel',
-          caption: 'chat.quasar.dev',
-          icon: 'chat',
-          link: 'https://chat.quasar.dev'
-        },
-        {
-          title: 'Forum',
-          caption: 'forum.quasar.dev',
-          icon: 'record_voice_over',
-          link: 'https://forum.quasar.dev'
-        },
-        {
-          title: 'Twitter',
-          caption: '@quasarframework',
-          icon: 'rss_feed',
-          link: 'https://twitter.quasar.dev'
-        },
-        {
-          title: 'Facebook',
-          caption: '@QuasarFramework',
-          icon: 'public',
-          link: 'https://facebook.quasar.dev'
-        },
-        {
-          title: 'Quasar Awesome',
-          caption: 'Community Quasar projects',
-          icon: 'favorite',
-          link: 'https://awesome.quasar.dev'
-        }
-      ]
+      count: 0,
     }
-  }
+  },
+  mounted() {
+      this.shopping = JSON.parse(localStorage.getItem('shopping'));
+      if (this.shopping != null) {
+        this.count = this.shopping.length        
+      }
+
+      // EventBus.$on('shoppingCart', () => {
+      //   this.shopping = JSON.parse(localStorage.getItem('shopping'));
+      //   this.count = this.shopping.length
+      // })
+    }
 }
 </script>
 
@@ -283,6 +185,7 @@ export default {
   body {
     margin: 0;
     padding: 0;
+    background-color: white;
   }
 
   li{

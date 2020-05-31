@@ -1,23 +1,40 @@
-const data =  [
+const materiales =  [
       {
         "id": 1,
-        "name": "Varilla Grado 42",
-        "description": "Barra de acero corrugado adaptable a diversas estructuras de refuerzo de concreto disponible en diversos diámetros según especificaciones de obra. ",
-        "price": 352.50
+        "name": "Block",
+        "description": "Block hueco Cemento arena 12 x 12",
+        "price": 8.00,
+        "image": "block_1.png"
       },
       {
         "id": 2,
-        "name": "Malla de Ingeniería",
-        "description": "Es un armado prefabricado para refuerzo de concreto que optimiza la cantidad de acero requerido y acelera el proceso constructivo por la rapidez de su colocación. ",
-        "price": 654.50
+        "name": "Ladrillo",
+        "description": "Ladrillo rojo de barro 6x12x24 cm",
+        "price": 4.50,
+        "image": "ladrillo_1.png"
       },
       {
         "id": 3,
-        "name": "Alambre Presfuerzo",
-        "description": "Es un alambre de acero de alto carbono sometido a un proceso térmico relevado de esfuerzos y baja relajación, con las propiedades adecuadas para la fabricación de viguetas. ",
-        "price": 213.50
+        "name": "Cemento Cruz Azul",
+        "description": "Cemento gris cruz azul",
+        "price": 149.50,
+        "image": "cemento_cruz.png"
+      },
+      {
+        "id": 4,
+        "name": "Pegazulejo",
+        "description": "Pegazulejo Blanco marca cruz azul",
+        "price": 83,
+        "image": "pegazulejo.png"
+      },
+      {
+        "id": 5,
+        "name": "Cal",
+        "description": "Cal de la marca calidra",
+        "price": 70,
+        "image": "calidra.png"
       }
     ]
 
 
-export {data}
+    export default materiales
