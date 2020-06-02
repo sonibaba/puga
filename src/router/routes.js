@@ -35,7 +35,15 @@ const routes = [
       { path: '', 
         component: () => import('pages/products/product.vue')}
     ]
-  }
+  },
+  {
+    path: '/shoppingCart',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', 
+        component: () => import('pages/cart/shopping_cart.vue')}
+    ]
+  },
 ]
 
 // Always leave this as last one

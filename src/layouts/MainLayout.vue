@@ -3,7 +3,7 @@
     <q-header elevated class="bg-indico-10" v-if="!this.$q.platform.is.mobile">
         <q-toolbar class="GPL__toolbar" style="height: 64px">
           <a title="Puga" href="/"><img
-                  src="../assets/puga-icon.png" width="32" style="width: 52px;"></a> 
+                  src="../assets/puga-icon-blanco.png" width="32" style="width: 52px;"></a> 
           <h6>Distribuidora de Cemento y Aceros PUGA</h6>
           <q-space ></q-space>
           <h6> <q-icon name="local_phone"/>MX (481) - 381 80 97 &nbsp &nbsp</h6> 
@@ -63,7 +63,7 @@
         </q-toolbar>
 
         <q-list padding>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_construction">
             <q-item-section>
               <q-item-label>Materiales</q-item-label>              
             </q-item-section>
@@ -152,7 +152,7 @@
 
 <script>
 import EssentialLink from 'components/EssentialLink'
-
+import EventBus from '../bus'
 export default {
   name: 'MainLayout',
 
@@ -172,10 +172,10 @@ export default {
         this.count = this.shopping.length        
       }
 
-      // EventBus.$on('shoppingCart', () => {
-      //   this.shopping = JSON.parse(localStorage.getItem('shopping'));
-      //   this.count = this.shopping.length
-      // })
+      EventBus.$on('shoppingCart', () => {
+        this.shopping = JSON.parse(localStorage.getItem('shopping'));
+        this.count = this.shopping.length
+      })
     }
 }
 </script>

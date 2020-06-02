@@ -92,7 +92,8 @@ module.exports = function (ctx) {
         'QExpansionItem',
         'QMarkupTable',
         'QAjaxBar',
-        'QRadio'
+        'QRadio',
+        'QScrollArea'
       ],
 
       directives: [

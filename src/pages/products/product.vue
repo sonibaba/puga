@@ -82,6 +82,19 @@
           localStorage.setItem('shopping', JSON.stringify(sinRepetidos));
           EventBus.$emit('shoppingCart')
         }
+
+        this.$q.notify({
+          message: 'Agregado a tu cotización',
+          color: 'green-8',
+          // position: 'top-right',
+          timeout: 3500,
+          icon: 'report_problem',
+          textColor: 'white',
+          actions: [{
+            icon: 'close',
+            color: 'white'
+          }]
+        })
       },
       async getRelatedProduct(tag, id) {
         var data = []

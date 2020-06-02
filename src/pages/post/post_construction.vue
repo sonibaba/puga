@@ -68,18 +68,10 @@ export default {
         data.push({
             'tag': 'Accesorios'
         });
-        /*try {
-            const resp = await api.post('/getPost',data)
-            this.posts = resp.data
-        } catch (error) {
-            console.error(error)
-        }*/
     }
   },
   created(){
-      this.posts = products
-      console.log(this.posts);
-      
+      this.posts = products      
       this.getPost()
   }
 }
