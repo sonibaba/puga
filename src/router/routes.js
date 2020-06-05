@@ -29,6 +29,13 @@ const routes = [
     ]
   },
   {
+    path: '/post_mangueras',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/post_mangueras.vue') }
+    ]
+  },
+  {
     path: '/product/:idProduct',
     component: () => import('layouts/MainLayout.vue'),
     children: [

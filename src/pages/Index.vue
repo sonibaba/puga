@@ -22,11 +22,11 @@
           <div>
             <q-card flat class="my-card bg-orange-8">
               <q-card-section>
-                <div class="text-h4 text-white">Proyectos Puga</div>
+                <div class="my-font text-h4 text-white">Proyectos Puga</div>
               </q-card-section>
               <q-separator />
               <q-card-section>
-                <div class="text-h6 text-white">VARIEDAD DE MATERIALES PARA TUS PROYECTOS</div>
+                <div class="my-font text-h6 text-white my-font">VARIEDAD DE MATERIALES PARA TUS PROYECTOS</div>
                 <!-- <div class="text-subtitle2 text-blue-white4">{{information.desc}}</div> -->
                 <div class="text-subtitle2 text-white">realiza tus ideas al mas bajo costo</div>
                 <br>
@@ -40,7 +40,7 @@
               <q-card-section>
                 <!-- <q-separator color="orange"/> -->
                 <br>
-                <div class="text-h4 text-primary">Av. Ciro Purata #100 Col. Cuauhtémoc CP. 79040</div>
+                <div class="my-font text-h4 text-primary">Av. Ciro Purata #100 Col. Cuauhtémoc CP. 79040</div>
               </q-card-section>
               <q-card-section>
                 <q-btn class="full-width" to="/location" size="22px" color="orange-8" text-color="white" label="Ubicación" />

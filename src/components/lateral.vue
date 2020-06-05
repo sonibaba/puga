@@ -2,48 +2,48 @@
     <div>
         <q-card v-if="!this.$q.platform.is.mobile" flat class="my-card">
         <q-toolbar class="GPL__toolbar">
-            <div class="text-center text-h6 text-orange-14">{{categorie}}</div>
+            <div class="text-center text-h4 text-orange-14">{{categorie}}</div>
         </q-toolbar>
 
         <q-list padding>
           <q-item clickable to="/post_construction">
             <q-item-section>
-              <q-item-label>Materiales</q-item-label>              
+              <q-item-label class="label">Materiales</q-item-label>              
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_mangueras">
             <q-item-section>
-              <q-item-label>Mangueras</q-item-label>
+              <q-item-label class="label">Mangueras</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_construction">
             <q-item-section>
-              <q-item-label>Acero Negro</q-item-label>
+              <q-item-label class="label">Acero Negro</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_mangueras">
             <q-item-section>
-              <q-item-label>Clavos</q-item-label>
+              <q-item-label class="label">Clavos</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_construction">
             <q-item-section>
-              <q-item-label>Agropecuarios</q-item-label>
+              <q-item-label class="label">Agropecuarios</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_mangueras">
             <q-item-section>
-              <q-item-label>Cercas Perimetrales</q-item-label>
+              <q-item-label class="label">Cercas Perimetrales</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_construction">
             <q-item-section>
-              <q-item-label>Laminas y Perfiles</q-item-label>
+              <q-item-label class="label">Laminas y Perfiles</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_mangueras">
             <q-item-section>
-              <q-item-label>Herramientas</q-item-label>
+              <q-item-label class="label">Herramientas</q-item-label>
             </q-item-section>
           </q-item>
           
@@ -76,3 +76,10 @@
         props: ['categorie'],
     }
 </script>
+
+<style>
+  .label{
+    font-size: 20px;
+    font-family: 'sans';
+  }
+</style>

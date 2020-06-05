@@ -1,11 +1,11 @@
-const materiales =  [
+[
   {
     "id": 1,
     "categorie": "materiales",
     "name": "Block 12x20x40",
     "description": "Block 12x20x40",
     "price": 8,
-    "image": "materiales/block_1.png"
+    "image": "block_1.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@ const materiales =  [
     "name": "Block 15x20x40",
     "description": "Block 15x20x40",
     "price": 10,
-    "image": "materiales/block_2.png"
+    "image": "block_2.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@ const materiales =  [
     "name": "Ladrillo",
     "description": "Ladrillo solido 24x12x5",
     "price": 4.5,
-    "image": "materiales/ladrillo.png"
+    "image": "ladrillo.png"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@ const materiales =  [
     "name": "Arena",
     "description": "Arena por metro cubico",
     "price": 350,
-    "image": "materiales/arena.png"
+    "image": "arena.png"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@ const materiales =  [
     "name": "grava",
     "description": "grava por metro cubico",
     "price": 350,
-    "image": "materiales/grava.png"
+    "image": "grava.png"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@ const materiales =  [
     "name": "Cemento Cruz Azul 50kg",
     "description": "Cemento gris marca cruz azul",
     "price": 149,
-    "image": "materiales/cruzazul.png"
+    "image": "cruzazul.png"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@ const materiales =  [
     "name": "Pegazulejo gris",
     "description": "Pegazulejo gris 20 kg.",
     "price": 65,
-    "image": "materiales/pegazulejo-gris.png"
+    "image": "pegazulejo-gris.png"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@ const materiales =  [
     "name": "Pegazulejo blanco",
     "description": "Pegazulejo blanco 20 kg",
     "price": 65,
-    "image": "materiales/pegazulejo-blanco.png"
+    "image": "pegazulejo-blanco.png"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@ const materiales =  [
     "name": "Cemento Moctezuma 50 kg",
     "description": "Cemento gris marca Moctezuma",
     "price": 152,
-    "image": "materiales/moctezuma.png"
+    "image": "moctezuma.png"
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@ const materiales =  [
     "name": "Cal",
     "description": "Cal marca calidra 25 kg.",
     "price": 70,
-    "image": "materiales/cal.png"
+    "image": "cal.png"
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@ const materiales =  [
     "name": "Yeso",
     "description": "Yeso Maximo 40 kg",
     "price": 82,
-    "image": "materiales/yeso.png"
+    "image": "yeso.png"
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@ const materiales =  [
     "name": "Imprecem ",
     "description": "Imprecem marca Monterrey",
     "price": 166,
-    "image": "materiales/impercem.png"
+    "image": "imprecem.png"
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@ const materiales =  [
     "name": "Cemento Monterrey 50 kg.",
     "description": "Cemento gris marca Monterrey",
     "price": 166,
-    "image": "materiales/monterrey.png"
+    "image": "monterrey.png"
   },
   {
     "id": 14,
@@ -109,17 +109,6 @@ const materiales =  [
     "name": "Multiplast",
     "description": "Multiplast marca Cemex 40kg",
     "price": 143,
-    "image": "materiales/multiplast.png"
-  },
-  {
-    "id": 15,
-    "categorie": "mangueras",
-    "name": "bicapa",
-    "description": "rollo de manguera bicapa",
-    "price": 123,
-    "image": "mangueras/bicapa.png"
+    "image": "multiplast.png"
   }
 ]
-
-
-    export default materiales

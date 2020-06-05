@@ -1,36 +1,43 @@
 <template>
   <div class="row justify-center q-col-gutter-sm">
-    <div class="col-12 col-sm-6 col-md-3 col-lg-4">
-      <q-carousel swipeable animated arrows v-model="slide" :fullscreen.sync="fullscreen" infinite thumbnails>
-        <q-carousel-slide :name="1" :img-src="require('../../assets/categories/'+product.image)" />
-        <q-carousel-slide :name="2" :img-src="require('../../assets/categories/'+product.image)" />
-        <q-carousel-slide :name="3" :img-src="require('../../assets/categories/'+product.image)" />
-        <template v-slot:control>
-                <q-carousel-control position="bottom-right" :offset="[18, 18]">
-                  <q-btn push round dense color="white" text-color="primary"
-                    :icon="fullscreen ? 'fullscreen_exit' : 'fullscreen'" @click="fullscreen = !fullscreen" />
-                </q-carousel-control>
-</template>
-          </q-carousel>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-5">
+          <q-img :height="250" :src="require('../../assets/categories/'+product.image)" />
         </div>
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-          <q-card flat class="my-card">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+          <q-card flat bordered class="my-card">
             <q-card-section>
-              <div class="text-h4 text-blue-grey-10">{{product.description}}</div>
-              <div class="text-h6 text-blue-grey-7">{{product.title}}</div>
+              <div class="text-h4 text-blue-grey-10 my-font">{{product.name}}</div>
+              <div class="text-h6 text-blue-grey-10 my-font">{{product.description}}</div>
             </q-card-section>
             <q-separator />
             <q-card-section>
-              <div class="text-h4 text-blue-grey-10">${{product.price}} MXN</div>
+              <div class="text-h4 text-green text-center my-font">$ <b>{{product.price}}</b> MXN</div>
             </q-card-section>
             <!-- <q-btn  outline class="q-mr-xs"  /> -->
             <q-card-section>
-              <q-btn icon-right="shopping_cart" @click="addProduct(product.id)" size="20px" class="q-px-xl q-py-xs"
-                color="deep-orange-12" label="agregar al carrito" />
+              <q-btn icon-right="shopping_cart" @click="addProduct(product.id)"  class="full-width"
+                color="deep-orange-12" label="agregar a la cotización" />
             </q-card-section>
           </q-card>
         </div>
 
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <br>
+          <!-- <div class="text-h5 my-font">Tal vez te interesen</div> -->
+          <q-card flat bordered class="my-card" vertical >
+            <q-card align="center" >
+            <q-card-section>
+              <div class="text-h6 text-orange-14">Proyectos puga</div>
+            </q-card-section>
+            <q-card-section>
+              <div class="text-left text-subtitle2 text-secondary">Alguna duda</div>
+              <!-- <div class="text-subtitle2">{{item.description}}</div> -->
+            </q-card-section>
+            <!-- <q-btn :to="'/product/'+item._id.$oid" align="right" flat class="q-mr-xs" label="Ver" icon-right="search" /> -->
+            <br>
+            </q-card>
+          </q-card>
+        </div>
       </div>
 </template>
 
@@ -86,7 +93,7 @@
         this.$q.notify({
           message: 'Agregado a tu cotización',
           color: 'green-8',
-          // position: 'top-right',
+          position: 'top-right',
           timeout: 3500,
           icon: 'report_problem',
           textColor: 'white',

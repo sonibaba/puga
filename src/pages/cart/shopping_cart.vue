@@ -1,26 +1,32 @@
 <template>
   <div>
     <div class="q-px-md q-py-lg">
-      <div class="row q-col-gutter-md justify-around">
-        <div class="col-12 col-sm-8 col-md-7 col-lg-7 ">
+      <div class="row q-col-gutter-md justify-center">
+        <q-card flat bordered class="my-card bg-grey-1">
+            <div class="col-12 col-sm-6 col-md-10 col-lg-10 ">
           <p class="text-h3">Cotice aqui sus productos</p>
           <q-separator />
           <div class="q-px-md q-py-lg" v-for="(pro,index) in products" :key="index">
-            <div class="row q-col-gutter-md justify-around">
-              <div class="col-12 col-sm-3 col-md-3 col-lg-3">
-                <img :src="require('../../assets/categories/'+pro.image)" style="height: 50px; max-width: 150px" />
+            <div class="row q-col-gutter-md justify-center">
+              <div class=" col-12 col-sm-6 col-md-3 col-lg-3">
+                <img :src="require('../../assets/categories/'+pro.image)" style="height: 120px; max-width: 350px" />
               </div>
-              <div class="col-12 col-sm-3 col-md-3 col-lg-3">
-                <div class="text-weight-bold">{{ pro.title }}</div>
-                <div class="text-caption">${{pro.price}} MXN</div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-3">
+                <div class="text-h5">{{ pro.name }}</div>
+                <div class="text-h6 text-green-14">${{pro.price}} MXN</div>
               </div>
-              <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+              <div class="col-12 col-sm-2 col-md-3 col-lg-3">
                 <select :id="index" @change="watchSelected($event,pro.price,index)">
+
                     <option v-for="i in 1000" :value="i">{{i}}</option>
                   </select>
               </div>
-              <div class="col-12 col-sm-3 col-md-3 col-lg-3 ">
-                <div v-if="totalPrice.lentgh != 0" class="text-weight-bold">${{ totalPrice[index] }} MXN</div>
+              <div class="col-12 col-sm-3 col-md-2 col-lg-2 ">
+                <div v-if="totalPrice.lentgh != 0" class="text-h6">$ {{ totalPrice[index] }} MXN</div>
+              </div>
+
+              <div class="col-12 col-sm-3 col-md-1 col-lg-1 ">
+                
                 <q-btn @click="clearProduct(pro.id,index)" flat round color="primary" icon="clear" />
               </div>
             </div><br>
@@ -37,7 +43,8 @@
               </div>
             </div> -->
         </div>
-        <div class="col-12 col-sm-4 col-md-4 col-lg-5 ">
+          </q-card>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
           <q-card flat bordered class="my-card bg-grey-1">
             <q-card-section>
               <div class="row items-center no-wrap">
@@ -188,3 +195,4 @@
     }
   }
 </script>
+

@@ -4,14 +4,15 @@
         <q-toolbar class="GPL__toolbar" style="height: 64px">
           <a title="Puga" href="/"><img
                   src="../assets/puga-icon-blanco.png" width="32" style="width: 52px;"></a> 
-          <h6>Distribuidora de Cemento y Aceros PUGA</h6>
+          <h6 class="my-font">Distribuidora de Cemento y Aceros PUGA</h6>
           <q-space ></q-space>
-          <h6> <q-icon name="local_phone"/>MX (481) - 381 80 97 &nbsp &nbsp</h6> 
+          <h6 class="my-font "> <q-icon name="local_phone"/><a class="text-white" href="tel:4813818097">Tel. (481)-3818097</a> &nbsp; &nbsp;</h6> 
           <q-btn align="right" to="/shoppingCart" color="orange-14" bordered class="q-mr-xs" :label="'('+count+')'"
               icon="shopping_cart" />
           <a title="Puga" href="https://web.facebook.com/proyectos.puga"><img
                   src="../assets/facebook_icon.png" width="32" style="width: 32px;"></a> 
         </q-toolbar>
+        <br>
             <q-btn flat to="/post_construction" label="Materiales"/>
  
             <q-btn flat  label="Magueras"/>
@@ -36,8 +37,11 @@
           aria-label="Menu"
           icon="menu"
         />
-          <q-toolbar-title>Puga</q-toolbar-title>
+          <q-toolbar-title class="my-font">Puga</q-toolbar-title>
           <q-space ></q-space>
+          <q-btn align="right" to="/shoppingCart" color="orange-14" bordered class="q-mr-xs" :label="'('+count+')'"
+              icon="shopping_cart" />
+              &nbsp
           <a title="Puga" href="/"><img
                   src="../assets/puga-icon.png" width="32" style="width: 32px;"></a> 
           <!-- <q-toolbar-title> <q-icon name="local_phone"/>MX (481) - 381 80 97</q-toolbar-title>
@@ -68,37 +72,37 @@
               <q-item-label>Materiales</q-item-label>              
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_mangueras">
             <q-item-section>
               <q-item-label>Mangueras</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_construction">
             <q-item-section>
               <q-item-label>Acero Negro</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_mangueras">
             <q-item-section>
               <q-item-label>Clavos</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_construction">
             <q-item-section>
               <q-item-label>Agropecuarios</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_mangueras">
             <q-item-section>
               <q-item-label>Cercas Perimetrales</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_construction">
             <q-item-section>
               <q-item-label>Laminas y Perfiles</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="mision_vision">
+          <q-item clickable to="/post_mangueras">
             <q-item-section>
               <q-item-label>Herramientas</q-item-label>
             </q-item-section>
@@ -109,7 +113,7 @@
           <q-space> </q-space> 
           <q-item clickable>
             <q-item-section>
-              <q-item-label>MX (481) - 381 80 97</q-item-label>
+              <q-item-label><a href="tel:4813818097">Tel. (481)-3818097</a></q-item-label>
             </q-item-section>
           </q-item>
           <q-item clickable>
@@ -137,10 +141,10 @@
         </div> -->
         <div class="col"> <br>
           <ul>
-            <li>ACEROS GALVANIZADOS PUGA</li>>
-            <li>Av. Ciro Purata #100 Col. Cuauhtémoc CP 79040</li>
-            <li>Tel. (481)-3818097</li>
-            <li><a title="Puga" href="https://web.facebook.com/proyectos.puga"><img
+            <li class="my-font">ACEROS GALVANIZADOS PUGA</li>>
+            <li class="my-font">Av. Ciro Purata #100 Col. Cuauhtémoc CP 79040</li>
+            <li class="my-font"><a href="tel:4813818097">Tel. (481)-3818097</a></li>
+            <li><a class="my-font" title="Puga" href="https://web.facebook.com/proyectos.puga"><img
                   src="https://image.flaticon.com/icons/svg/124/124010.svg" width="32" style="width: 32px;"></a> </li>
           </ul>
         </div>
