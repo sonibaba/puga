@@ -16,6 +16,12 @@
             </q-carousel-slide>
             <q-carousel-slide :name="7" :img-src="require('../assets/6.jpeg')">
             </q-carousel-slide>
+            <q-carousel-slide :name="8" :img-src="require('../assets/fabrica.jpg')">
+            </q-carousel-slide>
+            <q-carousel-slide :name="9" :img-src="require('../assets/fabrica2.jpg')">
+            </q-carousel-slide>
+            <q-carousel-slide :name="10" :img-src="require('../assets/presentacion.jpg')">
+            </q-carousel-slide>
           </q-carousel>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-4">
@@ -58,7 +64,7 @@
     <div class="q-pa-none">
     <q-parallax>
       <template v-slot:media>
-        <img src="https://www.cmoctezuma.com.mx/inline/615a3c0aeffb4742b273c5afcc299b07/2/0/0/true">
+        <img src="../assets/background.jpeg">
       </template>
 
       <template v-slot:content="scope">
@@ -71,7 +77,7 @@
             right: 0
           }"
         >
-          <img src="../assets/puga-blanco.png" style="width: 150px; height: 150px; border-radius: 2em"" >
+          <img src="../assets/puga-blanco.png" style="width: 150px; height: 150px; border-radius: 2em">
           <div class="text-h5 text-white text-center">Distribuidora de Cemento y Aceros <b>PUGA</b></div>
           <div class="text-h6 text-grey-3 text-center">
             2020

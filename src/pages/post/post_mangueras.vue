@@ -15,9 +15,8 @@
                 </q-img>
                 <q-separator/>
                 <q-card-section>
-                    <div class="text-subtitle2 text-center">{{item.description}}</div>
+                    <div class="text-h6 text-center">{{item.description}}</div> <br>
                     <div class="text-h6 text-center text-orange-14">${{item.price}} MXN </div>
-                    <div class="text-subtitle2 text-secondary">{{ item.title }}</div>
                     <!-- <div class="text-subtitle2">{{item.description}}</div> -->
                 </q-card-section>
                 

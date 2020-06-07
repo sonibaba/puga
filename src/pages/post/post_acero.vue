@@ -11,13 +11,12 @@
               <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center" v-for="(item,idex) in posts" :key="idex">
                 <q-card flat bordered class="my-card">
 
-                <q-img  :height="250" :src="require('../../assets/categories/'+item.image)" >
+                <q-img height="250" :src="require('../../assets/categories/'+item.image)" >
                 </q-img>
                 <q-separator/>
                 <q-card-section>
-                    <div class="text-subtitle2 text-center">{{item.description}}</div>
+                    <div class="text-h6 text-center">{{item.description}}</div> <br>
                     <div class="text-h6 text-center text-orange-14">${{item.price}} MXN </div>
-                    <div class="text-subtitle2 text-secondary">{{ item.title }}</div>
                     <!-- <div class="text-subtitle2">{{item.description}}</div> -->
                 </q-card-section>
                 

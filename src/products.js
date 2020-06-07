@@ -331,7 +331,7 @@ const materiales =  [
     "id": 42,
     "categorie": "acero",
     "name": "Armex 12 x 12 x 4",
-    "description": "Armex para castillo",
+    "description": "Armex para castillo 12 x 12 x 4",
     "price": 130,
     "image": "acero/armex-12x12.png"
   },
@@ -339,7 +339,7 @@ const materiales =  [
     "id": 43,
     "categorie": "acero",
     "name": "Armex 12 x 20 x 4",
-    "description": "Armex para cadena",
+    "description": "Armex para cadena 12 x 20 x 4",
     "price": 130,
     "image": "acero/armex-12x20.png"
   },
@@ -347,7 +347,7 @@ const materiales =  [
     "id": 44,
     "categorie": "acero",
     "name": "Armex 15 x 15 x 4",
-    "description": "Armex para castillo",
+    "description": "Armex para castillo 15 x 15 x 4",
     "price": 130,
     "image": "acero/armex-15x15.png"
   },
@@ -355,7 +355,7 @@ const materiales =  [
     "id": 45,
     "categorie": "acero",
     "name": "Armex 15 x 20 x 4",
-    "description": "Armex para cadena",
+    "description": "Armex para cadena 15 x 20 x 4",
     "price": 130,
     "image": "acero/armex-15x20.png"
   },
@@ -434,11 +434,36 @@ const materiales =  [
   {
     "id": 55,
     "categorie": "clavos",
-    "name": "Clavo de acero dos pulgadas",
-    "description": "Kilogramo de clavo reforzado de cuatro pulgadas",
-    "price": 73,
-    "image": "clavos/clavo-reforzado.png"
+    "name": "Clavo para concreto dos pulgadas",
+    "description": "Kilogramo de clavo de acero medida dos pulgadas",
+    "price": 41,
+    "image": "clavos/clavo-concreto-2.png"
+  },
+  {
+    "id": 56,
+    "categorie": "clavos",
+    "name": "Clavo para concreto 2 1/2 pulgadas",
+    "description": "Kilogramo de clavo de acero medida 2 1/2 pulgadas",
+    "price": 41,
+    "image": "clavos/clavo-concreto-2-2-1.png"
+  },
+  {
+    "id": 57,
+    "categorie": "clavos",
+    "name": "Clavo para concreto tres pulgadas",
+    "description": "Kilogramo de clavo de acero medida tres pulgadas",
+    "price": 41,
+    "image": "clavos/clavo-concreto-3.png"
+  },
+  {
+    "id": 55,
+    "categorie": "clavos",
+    "name": "Clavo paraaguas",
+    "description": "Kilogramo de clavo paraguas de 2 1/2",
+    "price": 41,
+    "image": "clavos/clavo-paraguas.png"
   }
+
 ]
 
 
