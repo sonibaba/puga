@@ -11,7 +11,7 @@
               <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center" v-for="(item,idex) in posts" :key="idex">
                 <q-card flat bordered class="my-card">
 
-                <q-img  :height="250" :src="require('../../assets/categories/'+item.image)" >
+                <q-img height="250" :src="require('../../assets/categories/'+item.image)" >
                 </q-img>
                 <q-separator/>
                 <q-card-section>
@@ -77,7 +77,6 @@ export default {
               this.posts.push(products[i])
              } 
            }
-      console.log(this.posts)
   }
 }
 </script>

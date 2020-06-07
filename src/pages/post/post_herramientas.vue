@@ -4,14 +4,14 @@
       <div class="row q-col-gutter-md">
 
         <div class="col-12 col-sm-4 col-md-3 col-lg-3">
-          <lateral  categorie="Mangueras"/>
+          <lateral  categorie="Acero Negro"/>
         </div>
         <div class="col-12 col-sm-8 col-md-9 col-lg-9">
           <div class="row q-col-gutter-md">
               <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center" v-for="(item,idex) in posts" :key="idex">
                 <q-card flat bordered class="my-card">
 
-                <q-img height="250" :src="require('../../assets/categories/'+item.image)" >
+                <q-img  :height="250" :src="require('../../assets/categories/'+item.image)" >
                 </q-img>
                 <q-separator/>
                 <q-card-section>
@@ -42,7 +42,7 @@
       <p>
         <img src="~assets/sad.svg" style="width:30vw;max-width:150px;">
       </p>
-      <p class="text-faded">Lo sentimos, no hay productos de mangueras</p>
+      <p class="text-faded">Lo sentimos, no hay productos de HERRAMIENTAS</p>
       <q-btn color="secondary" style="width:200px;" @click="$router.push('/')">Regresar</q-btn>
     </div>
         </div>
@@ -73,10 +73,12 @@ export default {
   created(){
       /*this.posts = products*/
       for (var i = 0; i < products.length; i++) {
-             if (products[i].categorie == 'mangueras') {
+             if (products[i].categorie == 'herramientas') {
               this.posts.push(products[i])
              } 
            }
+      console.log(this.posts)
   }
 }
 </script>
+

@@ -2,61 +2,83 @@
   <div>
     <div class="q-px-md q-py-lg">
       <div class="row q-col-gutter-md justify-center">
-        <q-card flat bordered class="my-card bg-grey-1">
-            <div class="col-12 col-sm-6 col-md-10 col-lg-10 ">
-          <p class="text-h3">Cotice aqui sus productos</p>
+        <div class="col-12 col-sm-8 col-md-7 col-lg-7 ">
+          <q-card flat bordered class="my-card bg-grey-1">
+            <q-card-section class="bg-teal text-white">
+              <div class="row items-center no-wrap">
+                <div class="col">
+                  <div class="text-h4 text-center">Cotice aqui sus productos</div>
+                </div>
+              </div>
+            </q-card-section>
+          </q-card>
           <q-separator />
-          <div class="q-px-md q-py-lg" v-for="(pro,index) in products" :key="index">
-            <div class="row q-col-gutter-md justify-center">
+          <q-card class="my-card" v-for="(pro,index) in products" :key="index">
+            <q-card-section>
+              <div class="row q-col-gutter-md justify-around">
               <div class=" col-12 col-sm-6 col-md-3 col-lg-3">
                 <img :src="require('../../assets/categories/'+pro.image)" style="height: 120px; max-width: 350px" />
               </div>
               <div class="col-12 col-sm-4 col-md-3 col-lg-3">
                 <div class="text-h5">{{ pro.name }}</div>
-                <div class="text-h6 text-green-14">${{pro.price}} MXN</div>
+                <div class="text-h6 text-green-14">Precio unitario: ${{pro.price}} MXN</div>
               </div>
-              <div class="col-12 col-sm-2 col-md-3 col-lg-3">
+              <div class="col-12 col-sm-3 col-md-3 col-lg-3">
                 <select :id="index" @change="watchSelected($event,pro.price,index)">
-
                     <option v-for="i in 1000" :value="i">{{i}}</option>
                   </select>
               </div>
-              <div class="col-12 col-sm-3 col-md-2 col-lg-2 ">
-                <div v-if="totalPrice.lentgh != 0" class="text-h6">$ {{ totalPrice[index] }} MXN</div>
-              </div>
-
-              <div class="col-12 col-sm-3 col-md-1 col-lg-1 ">
-                
+              <div class="col-12 col-sm-3 col-md-3 col-lg-3 ">
+                <div v-if="totalPrice.lentgh != 0" class="text-weight-bold">${{ totalPrice[index] }} MXN</div>
                 <q-btn @click="clearProduct(pro.id,index)" flat round color="primary" icon="clear" />
               </div>
-            </div><br>
-            <q-separator />
-          </div>
-        </div>
+            </div>
+            </q-card-section>
           </q-card>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
+          <!-- <div class="col-12 col-sm-4 col-md-4 col-lg-5" v-if="this.data === null">
+              <br>
+              <div class="text-center">
+                <p>
+                  <img src="~assets/sad.svg" style="width:30vw;max-width:150px;">
+                </p>
+                <p class="text-faded">No has seleccionado ningun producto</p>
+                <q-btn color="secondary" style="width:200px;" @click="$router.push('/')">Regresar</q-btn>
+              </div>
+            </div> -->
+        </div>
+        <div class="col-12 col-sm-8 col-md-7 col-lg-7 ">
+          <p class="text-h5 text-center">Los precios pueden variar en la tienda en caso de haber tenido un cambio</p>
+          <q-separator />
           <q-card flat bordered class="my-card bg-grey-1">
-            <q-card-section>
+            <q-card-section class="bg-teal text-white">
               <div class="row items-center no-wrap">
                 <div class="col">
-                  <div class="text-h6">Comprar ya!</div>
+                  <div class="text-h4 text-center"><b>Total: ${{total.toFixed(2)}}</b> MXN</div>
                 </div>
               </div>
             </q-card-section>
-            <q-card-section>
-              <b>${{total.toFixed(2)}}</b> MXN
-            </q-card-section>
-            <q-separator />
-            <q-card-actions>
-              <q-btn color="positive" @click="getPriceTotal()" label="Cotizar" />
-            </q-card-actions>
           </q-card>
         </div>
       </div>
     </div>
   </div>
 </template>
+<style>
+  select {
+    background: #dfe6e9;
+     border: none;
+     font-size: 14px;
+     height: 30px;
+     padding: 5px;
+     width: 50px;
+  }
+  option {
+    height: 150px;
+    white-space:pre-wrap;
+    word-wrap: break-word;
+  }
 
+</style>
 <script>
   import EventBus from '../../bus'
   import cart from '../../products'
@@ -104,8 +126,8 @@
         // console.log(this.products);
       },
       async getShopping() {
-        this.products = []
-        this.totalPrice = []
+        // 1 block y 5 cal
+        
         for (let i = 0; i < this.data.length; i++) {
           for (let j = 0; j < cart.length; j++) {
             if (cart[j].id == this.data[i]) {
@@ -114,6 +136,28 @@
           }
         }
         this.getPrice()
+        
+        
+        // console.log(this.products);
+        // if (this.data != null) {
+        //   try {
+        //     var resp = await api.post('/getShopping', this.data,{
+        //       headers: {
+        //         Authorization: `Bearer ${sessionStorage.getItem("token")}`
+        //       }
+        //     })
+        //     if (resp.data[0] == null) {
+        //       localStorage.removeItem('shopping');
+        //       location.reload();
+        //     } else {
+        //       this.products = resp.data
+        //       this.getPrice()
+        //     }
+        //     this.getPriceTotal()
+        //   } catch (error) {
+        //     console.log(error)
+        //   }
+        // }
       },
       getPrice() {
         for (let i = 0; i < this.data.length; i++) {
@@ -125,6 +169,7 @@
         var newArray = this.data.filter(function(i) {
           return i !== id
         }); // filtramos
+        console.log('asu');
         
         localStorage.setItem('shopping', JSON.stringify(newArray));
         this.total = 0
@@ -133,7 +178,7 @@
         this.arrayQuantity.splice(index, 1)
         this.getShopping()
         this.getPriceTotal()
-        window.location.reload(false);
+        location.reload();
       },
       async buyProduct() {
         var array = []
@@ -161,4 +206,3 @@
     }
   }
 </script>
-

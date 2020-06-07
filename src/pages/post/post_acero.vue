@@ -77,7 +77,6 @@ export default {
               this.posts.push(products[i])
              } 
            }
-      console.log(this.posts)
   }
 }
 </script>

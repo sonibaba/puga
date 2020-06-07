@@ -1,51 +1,83 @@
 <template>
-  <div class="row justify-center q-col-gutter-sm">
-    <div class="col-12 col-sm-6 col-md-4 col-lg-5">
-          <q-img :height="250" :src="require('../../assets/categories/'+product.image)" />
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-          <q-card flat bordered class="my-card">
-            <q-card-section>
-              <div class="text-h4 text-blue-grey-10 my-font">{{product.name}}</div>
-              <div class="text-h6 text-blue-grey-10 my-font">{{product.description}}</div>
-            </q-card-section>
-            <q-separator />
-            <q-card-section>
-              <div class="text-h4 text-green text-center my-font">$ <b>{{product.price}}</b> MXN</div>
-            </q-card-section>
-            <!-- <q-btn  outline class="q-mr-xs"  /> -->
-            <q-card-section>
-              <q-btn icon-right="shopping_cart" @click="addProduct(product.id)"  class="full-width"
-                color="deep-orange-12" label="agregar a la cotización" />
+  <div>
+    <div class="q-px-md q-py-lg">
+      <div>
+        <div class="col-12 col-sm-8 col-md-7 col-lg-7 ">
+          <q-card flat class="my-card bg-grey-1">
+            <q-card-section class="bg-teal text-white">
+              <div class="row items-center no-wrap">
+                <div class="col">
+                  <div class="text-h4 text-center">Cotice aqui sus productos</div>
+                </div>
+              </div>
             </q-card-section>
           </q-card>
-        </div>
+          <q-separator />
+          <q-card flat class="my-card" >
+            <q-card-section>
+              <div class="row q-col-gutter-md justify-around">
+              <div class=" col-12 col-sm-6 col-md-3 col-lg-3">
+                <img :src="require('../../assets/categories/'+product.image)" />
+              </div>
 
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-          <br>
-          <!-- <div class="text-h5 my-font">Tal vez te interesen</div> -->
-          <q-card flat bordered class="my-card" vertical >
-            <q-card align="center" >
-            <q-card-section>
-              <div class="text-h6 text-orange-14">Proyectos puga</div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-3">
+                <q-card flat class="my-card">
+                  <q-card-section>
+                    <div class="text-h4 text-blue-grey-10 my-font">{{product.name}}</div>
+                    <div class="text-h6 text-blue-grey-10 my-font">{{product.description}}</div>
+                  </q-card-section>
+                  <q-separator />
+                  <q-card-section>
+                    <div class="text-h4 text-green text-center my-font">$ <b>{{product.price}}</b> MXN</div>
+                  </q-card-section>
+                  <!-- <q-btn  outline class="q-mr-xs"  /> -->
+                  <q-card-section>
+                    <q-btn icon-right="shopping_cart" @click="addProduct(product.id)"  class="full-width"
+                      color="deep-orange-12" label="agregar a la cotización" />
+                  </q-card-section>
+                </q-card>
+              </div>
+
+              <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+                <q-card flat class="my-card" vertical >
+                  <q-card align="center" >
+                  <q-card-section>
+                    <div class="text-h6 text-orange-14">¿Quienes somos?</div>
+                  </q-card-section>
+                  <q-card-section>
+                    <div class="text-left text-subtitle2 text-secondary">Somos empresa dedicada al suministro de materiales para construcción de primera calidad. Formamos parte de las redes de Cementos y Aceros que nos permite una amplia variedad de productos de la mas alta calidad y el precio mas bajo.</div>
+                    <!-- <div class="text-subtitle2">{{item.description}}</div> -->
+                  </q-card-section>
+                  <q-card-section>
+                    <div class="text-h6 text-orange-14">Servicios</div>
+                  </q-card-section>
+                  <q-card-section>
+                    <div class="text-left text-subtitle2 text-secondary">Contamos con una amplia variedad de servicios para facilitar la cotización, optimización y entrega de los materiales para construcción de tu obra.</div>
+                    <!-- <div class="text-subtitle2">{{item.description}}</div> -->
+                  </q-card-section>
+                  <!-- <q-btn :to="'/product/'+item._id.$oid" align="right" flat class="q-mr-xs" label="Ver" icon-right="search" /> -->
+                  <br>
+                  </q-card>
+                </q-card>
+              </div>
+            </div>
             </q-card-section>
-            <q-card-section>
-              <div class="text-left text-subtitle2 text-secondary">Alguna duda</div>
-              <!-- <div class="text-subtitle2">{{item.description}}</div> -->
-            </q-card-section>
-            <!-- <q-btn :to="'/product/'+item._id.$oid" align="right" flat class="q-mr-xs" label="Ver" icon-right="search" /> -->
-            <br>
-            </q-card>
           </q-card>
+          <!-- <div class="col-12 col-sm-4 col-md-4 col-lg-5" v-if="this.data === null">
+              <br>
+              <div class="text-center">
+                <p>
+                  <img src="~assets/sad.svg" style="width:30vw;max-width:150px;">
+                </p>
+                <p class="text-faded">No has seleccionado ningun producto</p>
+                <q-btn color="secondary" style="width:200px;" @click="$router.push('/')">Regresar</q-btn>
+              </div>
+            </div> -->
         </div>
       </div>
+    </div>
+  </div>
 </template>
-
-<style scoped>
-  .tachado {
-    text-decoration: line-through;
-  }
-</style>
 
 <script>
   //   import {

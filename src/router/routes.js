@@ -29,6 +29,13 @@ const routes = [
     ]
   },
   {
+    path: '/post_mangueras',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/post_mangueras.vue') }
+    ]
+  },
+  {
     path: '/post_acero',
     component: () => import('layouts/MainLayout.vue'),
     children: [
@@ -36,10 +43,38 @@ const routes = [
     ]
   },
   {
-    path: '/post_mangueras',
+    path: '/post_clavos',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/post/post_mangueras.vue') }
+      { path: '', component: () => import('pages/post/post_clavos.vue') }
+    ]
+  },
+  {
+    path: '/post_agropecuarios',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/post_agropecuarios.vue') }
+    ]
+  },
+  {
+    path: '/post_cercas',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/post_cercas.vue') }
+    ]
+  },
+  {
+    path: '/post_laminas',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/post_laminas.vue') }
+    ]
+  },
+  {
+    path: '/post_herramientas',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/post_herramientas.vue') }
     ]
   },
   {

@@ -13,17 +13,19 @@
         </q-toolbar>
         <br>
             <q-btn flat to="/post_construction" label="Materiales"/>
-            <q-btn flat  label="Magueras"/>
+            <q-btn flat to="/post_mangueras" label="Magueras"/>
  
-            <q-btn flat  label="Acero Negro"/>            
+            <q-btn flat to="/post_acero" label="Acero Negro"/>            
  
-            <q-btn flat  label="Clavos"/>
+            <q-btn flat to="/post_clavos" label="Clavos"/>
+
+            <q-btn flat to="/post_agropecuarios" label="Agropecuarios"/>
  
-            <q-btn flat  label="Cercas"/>
+            <q-btn flat to="/post_cercas" label="Cercas"/>
  
-            <q-btn flat  label="Laminas y Perfiles"/>
+            <q-btn flat to="/post_laminas" label="Laminas y Perfiles"/>
  
-            <q-btn flat label="Herramientas"/>
+            <q-btn flat to="/post_herramientas"label="Herramientas"/>
       </q-header>
 
       <q-header elevated class="bg-indico-10" v-if="this.$q.platform.is.mobile">
@@ -39,12 +41,9 @@
           <q-space ></q-space>
           <q-btn align="right" to="/shoppingCart" color="orange-14" bordered class="q-mr-xs" :label="'('+count+')'"
               icon="shopping_cart" />
-              &nbsp
+              &nbsp;
           <a title="Puga" href="/"><img
-                  src="../assets/puga-icon.png" width="32" style="width: 32px;"></a> 
-          <!-- <q-toolbar-title> <q-icon name="local_phone"/>MX (481) - 381 80 97</q-toolbar-title>
-          <a title="Puga" href="https://web.facebook.com/proyectos.puga"><img
-                  src="../assets/facebook_icon.png" width="32" style="width: 32px;"></a>  -->
+                  src="../assets/puga-icon.png" width="32" style="width: 32px;"></a>
         </q-toolbar>
       </q-header>
 
@@ -75,32 +74,32 @@
               <q-item-label>Mangueras</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="/post_construction">
+          <q-item clickable to="/post_acero">
             <q-item-section>
               <q-item-label>Acero Negro</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="/post_mangueras">
+          <q-item clickable to="/post_clavos">
             <q-item-section>
               <q-item-label>Clavos</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="/post_construction">
+          <q-item clickable to="/post_agropecuarios">
             <q-item-section>
               <q-item-label>Agropecuarios</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="/post_mangueras">
+          <q-item clickable to="/post_cercas">
             <q-item-section>
               <q-item-label>Cercas Perimetrales</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="/post_construction">
+          <q-item clickable to="/post_laminas">
             <q-item-section>
               <q-item-label>Laminas y Perfiles</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="/post_mangueras">
+          <q-item clickable to="/post_herramientas">
             <q-item-section>
               <q-item-label>Herramientas</q-item-label>
             </q-item-section>
@@ -131,12 +130,16 @@
 
     <div class="footer">
       <div class="contain">
-        <!-- <div class="col">
+        <div class="col">
           <h1></h1>
           <ul>
-            <li>Gracias a tu compra, el Voluntariado Estatal de Zacatecas entregará a las personas de más bajos recursos apoyos como: Quimioterapias, hemodiálisis, aparatos funcionales, apoyo económico para transporte de enfermos, para pagos hospitalarios, para medicamentos especializados, para gastos funerarios,  entre muchos otros. </li>
+            <li>Pagina web desarrollada por:</li>
+            <li><a class="my-font" title="Facebook" href="https://web.facebook.com/jesusantonio.amadorsoni">Ing. Jesús Antonio Amador Soní</a> </li>
+            <li></li>
+            <li>Correo:</li>
+            <li><a>jesusantonioamadorsoni@gmail.com</a></li>
           </ul>
-        </div> -->
+        </div>
         <div class="col"> <br>
           <ul>
             <li class="my-font">ACEROS GALVANIZADOS PUGA</li>>

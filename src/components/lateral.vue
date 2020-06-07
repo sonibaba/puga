@@ -21,27 +21,27 @@
               <q-item-label class="label">Acero Negro</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="post_mangueras">
+          <q-item clickable to="post_clavos">
             <q-item-section>
               <q-item-label class="label">Clavos</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="post_construction">
+          <q-item clickable to="post_agropecuarios">
             <q-item-section>
               <q-item-label class="label">Agropecuarios</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="post_mangueras">
+          <q-item clickable to="post_cercas">
             <q-item-section>
               <q-item-label class="label">Cercas Perimetrales</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="post_construction">
+          <q-item clickable to="post_laminas">
             <q-item-section>
               <q-item-label class="label">Laminas y Perfiles</q-item-label>
             </q-item-section>
           </q-item>
-          <q-item clickable to="post_mangueras">
+          <q-item clickable to="post_herramientas">
             <q-item-section>
               <q-item-label class="label">Herramientas</q-item-label>
             </q-item-section>
