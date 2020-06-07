@@ -4,7 +4,7 @@
       <div class="row q-col-gutter-md">
 
         <div class="col-12 col-sm-4 col-md-3 col-lg-3">
-          <lateral  categorie="Materiales"/>
+          <lateral  categorie="Acero Negro"/>
         </div>
         <div class="col-12 col-sm-8 col-md-9 col-lg-9">
           <div class="row q-col-gutter-md">
@@ -42,7 +42,7 @@
       <p>
         <img src="~assets/sad.svg" style="width:30vw;max-width:150px;">
       </p>
-      <p class="text-faded">Lo sentimos, no hay productos de construccion</p>
+      <p class="text-faded">Lo sentimos, no hay productos de ACERO NEGRO</p>
       <q-btn color="secondary" style="width:200px;" @click="$router.push('/')">Regresar</q-btn>
     </div>
         </div>
@@ -73,7 +73,7 @@ export default {
   created(){
       /*this.posts = products*/
       for (var i = 0; i < products.length; i++) {
-             if (products[i].categorie == 'materiales') {
+             if (products[i].categorie == 'acero') {
               this.posts.push(products[i])
              } 
            }

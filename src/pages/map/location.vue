@@ -1,12 +1,13 @@
 <template>
     <div>
         <div ref="googleMap" id="map"></div>
-        <blockquote class="blockquote">
-
-            <p class="text-h5">Dirección:</p>
-            <p>Av. Ciro Purata #100 Col. Cuauhtémoc CP 79040 <br> Ciudad Valles, San Luis Potosi</p>
-            <p> <b> Teléfono: </b> (481)-3818097</p>
-        </blockquote>
+        <div class="q-pt-none q-pr-none q-gutter-xl">
+          <q-banner class="bg-white-8 text-black">
+            <h4 class="text-center text-secondary my-font">Dirección:</h4>
+            <p class="text-center text-secondary my-font">Av. Ciro Purata #100 Col. Cuauhtémoc CP 79040 <br> Ciudad Valles, San Luis Potosi</p>
+            <p class="text-center text-secondary my-font"> <b> Teléfono: </b> (481)-3818097</p>
+          </q-banner>
+        </div>
     </div>
 </template>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnFmBvpH5i_riEHfRItdotctU7xAjGKHQ"></script>

@@ -2,11 +2,10 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated class="bg-indico-10" v-if="!this.$q.platform.is.mobile">
         <q-toolbar class="GPL__toolbar" style="height: 64px">
-          <a title="Puga" href="/"><img
-                  src="../assets/puga-icon-blanco.png" width="32" style="width: 52px;"></a> 
+          <a title="Puga" href="/"><img src="../assets/puga-blanco.png" width="32" style="width: 52px; border-radius: 2em"></a> &nbsp; &nbsp;
           <h6 class="my-font">Distribuidora de Cemento y Aceros PUGA</h6>
           <q-space ></q-space>
-          <h6 class="my-font "> <q-icon name="local_phone"/><a class="text-white" href="tel:4813818097">Tel. (481)-3818097</a> &nbsp; &nbsp;</h6> 
+          <h6 class="my-font "> <q-icon name="local_phone"/><a class="text-white" href="tel:4813818097">Tel. (481)-3818097</a> &nbsp;</h6> 
           <q-btn align="right" to="/shoppingCart" color="orange-14" bordered class="q-mr-xs" :label="'('+count+')'"
               icon="shopping_cart" />
           <a title="Puga" href="https://web.facebook.com/proyectos.puga"><img
@@ -14,7 +13,6 @@
         </q-toolbar>
         <br>
             <q-btn flat to="/post_construction" label="Materiales"/>
- 
             <q-btn flat  label="Magueras"/>
  
             <q-btn flat  label="Acero Negro"/>            
@@ -198,11 +196,14 @@ export default {
 
   a{
     text-decoration: none;
-    color:  #34495e;
+    color:  white;
+  }
+  .my-font {
+    font-family: 'sans';
   }
 
   * {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'sans';
   }
 
   .dummy_page {

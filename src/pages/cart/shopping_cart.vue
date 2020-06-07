@@ -32,16 +32,6 @@
             </div><br>
             <q-separator />
           </div>
-          <!-- <div class="col-12 col-sm-4 col-md-4 col-lg-5" v-if="this.data === null">
-              <br>
-              <div class="text-center">
-                <p>
-                  <img src="~assets/sad.svg" style="width:30vw;max-width:150px;">
-                </p>
-                <p class="text-faded">No has seleccionado ningun producto</p>
-                <q-btn color="secondary" style="width:200px;" @click="$router.push('/')">Regresar</q-btn>
-              </div>
-            </div> -->
         </div>
           </q-card>
         <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
@@ -58,7 +48,7 @@
             </q-card-section>
             <q-separator />
             <q-card-actions>
-              <q-btn color="positive" to="confirmation_shopping" label="Comprar" />
+              <q-btn color="positive" @click="getPriceTotal()" label="Cotizar" />
             </q-card-actions>
           </q-card>
         </div>
@@ -114,8 +104,8 @@
         // console.log(this.products);
       },
       async getShopping() {
-        // 1 block y 5 cal
-        
+        this.products = []
+        this.totalPrice = []
         for (let i = 0; i < this.data.length; i++) {
           for (let j = 0; j < cart.length; j++) {
             if (cart[j].id == this.data[i]) {
@@ -124,29 +114,6 @@
           }
         }
         this.getPrice()
-
-        
-        
-        // console.log(this.products);
-        // if (this.data != null) {
-        //   try {
-        //     var resp = await api.post('/getShopping', this.data,{
-        //       headers: {
-        //         Authorization: `Bearer ${sessionStorage.getItem("token")}`
-        //       }
-        //     })
-        //     if (resp.data[0] == null) {
-        //       localStorage.removeItem('shopping');
-        //       location.reload();
-        //     } else {
-        //       this.products = resp.data
-        //       this.getPrice()
-        //     }
-        //     this.getPriceTotal()
-        //   } catch (error) {
-        //     console.log(error)
-        //   }
-        // }
       },
       getPrice() {
         for (let i = 0; i < this.data.length; i++) {
@@ -158,7 +125,6 @@
         var newArray = this.data.filter(function(i) {
           return i !== id
         }); // filtramos
-        console.log('asu');
         
         localStorage.setItem('shopping', JSON.stringify(newArray));
         this.total = 0
@@ -167,7 +133,7 @@
         this.arrayQuantity.splice(index, 1)
         this.getShopping()
         this.getPriceTotal()
-        location.reload();
+        window.location.reload(false);
       },
       async buyProduct() {
         var array = []
