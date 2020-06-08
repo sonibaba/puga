@@ -462,7 +462,426 @@ const materiales =  [
     "description": "Kilogramo de clavo paraguas de 2 1/2",
     "price": 41,
     "image": "clavos/clavo-paraguas.png"
-  }
+  },
+  {
+    "id": 56,
+    "categorie": "agropecuarios",
+    "name": "Borreguera 1 x 50",
+    "description": "Rollo de malla borreguera 1 metro de alto x 20 metros",
+    "price": 714,
+    "image": "agropecuarios/borreguera-1.png"
+  },
+  {
+    "id": 57,
+    "categorie": "agropecuarios",
+    "name": "Borreguera 1.20 x 50",
+    "description": "Rollo de malla borreguera 1.20 metros de alto x 20 metros",
+    "price": 863,
+    "image": "agropecuarios/borreguera-1-20.png"
+  },
+  {
+    "id": 58,
+    "categorie": "agropecuarios",
+    "name": "Borreguera 1.75 x 50",
+    "description": "Rollo de malla borreguera 1.75 metros de alto x 20 metros",
+    "price": 1105,
+    "image": "agropecuarios/borreguera-1-75.png"
+  },
+  {
+    "id": 59,
+    "categorie": "agropecuarios",
+    "name": "Gallinera 1.75 x 45",
+    "description": "Rollo de malla gallinera 1.75 metros de alto x 20 metros",
+    "price": 909,
+    "image": "agropecuarios/gallinera-1-75.png"
+  },
+  {
+    "id": 60,
+    "categorie": "agropecuarios",
+    "name": "Gallinera 1.50 x 45",
+    "description": "Rollo de malla gallinera 1.50 metros de alto x 20 metros",
+    "price": 776,
+    "image": "agropecuarios/gallinera-1-50.png"
+  },
+  {
+    "id": 61,
+    "categorie": "agropecuarios",
+    "name": "Pollera 1.00 x 45",
+    "description": "Rollo de malla gallinera 1 metro de alto x 20 metros",
+    "price": 793,
+    "image": "agropecuarios/pollera-1.png"
+  },
+  {
+    "id": 62,
+    "categorie": "agropecuarios",
+    "name": "Plafonera 500 x 22",
+    "description": "Rollo de malla plafonera 500 x 20",
+    "price": 516,
+    "image": "agropecuarios/plafonera.png"
+  },
+  {
+    "id": 63,
+    "categorie": "agropecuarios",
+    "name": "criba 5 x 5 - 10",
+    "description": "Rollo de criba 5 x 5 - 10",
+    "price": 857,
+    "image": "agropecuarios/criba-5-5.png"
+  },
+  {
+    "id": 64,
+    "categorie": "agropecuarios",
+    "name": "criba 8 x 8 - 10",
+    "description": "Rollo de criba 8 x 8 - 10",
+    "price": 986,
+    "image": "agropecuarios/criba-8-8.png"
+  },
+  {
+    "id": 65,
+    "categorie": "agropecuarios",
+    "name": "Multimalla 5 x 5 - 20",
+    "description": "Multimalla 5 x 5 - 20, un metro de alto, cal. 14",
+    "price": 1087,
+    "image": "agropecuarios/multimalla-1.png"
+  },
+  {
+    "id": 66,
+    "categorie": "agropecuarios",
+    "name": "Multimalla 5 x 10 - 20",
+    "description": "Multimalla 5 x 10 - 20, 1.22 metros de alto, cal. 14",
+    "price": 1014,
+    "image": "agropecuarios/multimalla-1-22.png"
+  },
+  {
+    "id": 67,
+    "categorie": "agropecuarios",
+    "name": "Mosquitera 1.05 metros de alto",
+    "description": "Rollo de mosquitera 1.05 metros de alto",
+    "price": 1260,
+    "image": "agropecuarios/mosquitera-1-05.png"
+  },
+  {
+    "id": 68,
+    "categorie": "agropecuarios",
+    "name": "Mosquitera 1.20 metros de alto",
+    "description": "Rollo de mosquitera 1.20 metros de alto",
+    "price": 1439,
+    "image": "agropecuarios/mosquitera-1-20.png"
+  },
+  {
+    "id": 69,
+    "categorie": "agropecuarios",
+    "name": "Grapa 1 1/4 de pulgada",
+    "description": "Kilogramo de grapa de 1 1/4 de pulgada",
+    "price": 37,
+    "image": "agropecuarios/grapa-1-1-4.png"
+  },
+  {
+    "id": 70,
+    "categorie": "agropecuarios",
+    "name": "Grapa 1 de pulgada",
+    "description": "Kilogramo de grapa de 1 de pulgada",
+    "price": 37,
+    "image": "agropecuarios/grapa-1.png"
+  },
+  {
+    "id": 71,
+    "categorie": "agropecuarios",
+    "name": "Alambre de púas",
+    "description": "Rollo de alambre de puas 351 metros",
+    "price": 852,
+    "image": "agropecuarios/puas-351.png"
+  },
+  {
+    "id": 72,
+    "categorie": "agropecuarios",
+    "name": "Alambre de púas",
+    "description": "Rollo de alambre de puas 310 metros",
+    "price": 852,
+    "image": "agropecuarios/puas-310.png"
+  },
+  {
+    "id": 73,
+    "categorie": "agropecuarios",
+    "name": "Alambre de púas vaquero",
+    "description": "Rollo de alambre vaquero de puas 250 metros",
+    "price": 442,
+    "image": "agropecuarios/puas-250.png"
+  },
+  {
+    "id": 74,
+    "categorie": "agropecuarios",
+    "name": "Alambre de púas san",
+    "description": "Rollo de alambre san de puas 360 metros",
+    "price": 540,
+    "image": "agropecuarios/puas-360.png"
+  },
+  {
+    "id": 75,
+    "categorie": "agropecuarios",
+    "name": "Separadores",
+    "description": "separadores 1.07 metros de alto",
+    "price": 11,
+    "image": "agropecuarios/separadores.png"
+  },
+  {
+    "id": 76,
+    "categorie": "agropecuarios",
+    "name": "Poste T ligero",
+    "description": "Poste T ligero de 6 pies",
+    "price": 99,
+    "image": "agropecuarios/poste-t.png"
+  },
+  {
+    "id": 77,
+    "categorie": "agropecuarios",
+    "name": "Clip",
+    "description": "Clip para poste",
+    "price": 1,
+    "image": "agropecuarios/clip-poste.png"
+  }/*,
+  {
+    "id": 76,
+    "categorie": "agropecuarios",
+    "name": "Retenida H",
+    "description": "Retenida H",
+    "price": 1160,
+    "image": "agropecuarios/retenida-h.png"
+  }*/
+  ,
+  {
+    "id": 79,
+    "categorie": "agropecuarios",
+    "name": "Cerco electrico",
+    "description": "Cerco eléctrico 500 metros cal.14",
+    "price": 531,
+    "image": "agropecuarios/cerco-electrico.png"
+  },
+  {
+    "id": 80,
+    "categorie": "cercas",
+    "name": "Concertina",
+    "description": "Rollo de concertina 7 metros",
+    "price": 276,
+    "image": "cercas/concertina.png"
+  },
+  {
+    "id": 81,
+    "categorie": "cercas",
+    "name": "Picos para barda",
+    "description": "Picos para barda 1 metro de largo",
+    "price": 139,
+    "image": "picos.png"
+  },
+  {
+    "id": 82,
+    "categorie": "cercas",
+    "name": "Malla ciclonica 1 metro de alto",
+    "description": "Malla ciclonica 1 metro de alto x 20 metros de largo",
+    "price": 620,
+    "image": "ciclonica-1.png"
+  },
+  {
+    "id": 83,
+    "categorie": "cercas",
+    "name": "Malla ciclonica 1.50 metro de alto",
+    "description": "Malla ciclonica 1.50 metro de alto x 20 metros de largo",
+    "price": 930,
+    "image": "ciclonica-1-50.png"
+  },
+  {
+    "id": 84,
+    "categorie": "cercas",
+    "name": "Malla ciclonica 1.75 metro de alto",
+    "description": "Malla ciclonica 1.75 metro de alto x 20 metros de largo",
+    "price": 987,
+    "image": "ciclonica-1-75.png"
+  },
+  {
+    "id": 85,
+    "categorie": "cercas",
+    "name": "Malla ciclonica 2 metro de alto",
+    "description": "Malla ciclonica 2 metro de alto x 20 metros de largo",
+    "price": 1240,
+    "image": "ciclonica-2.png"
+  },
+  {
+    "id": 86,
+    "categorie": "cercas",
+    "name": "Malla ciclonica reforzada 1.50 metro de alto",
+    "description": "Malla ciclonica reforzada 1.50 metro de alto x 20 metros de largo",
+    "price": 2195,
+    "image": "ciclonica-ref-1-50.png"
+  },
+  {
+    "id": 87,
+    "categorie": "cercas",
+    "name": "Malla ciclonica reforzada 2 metro de alto",
+    "description": "Malla ciclonica reforzada 2 metro de alto x 20 metros de largo",
+    "price": 2950,
+    "image": "ciclonica-ref-2.png"
+  },
+  {
+    "id": 88,
+    "categorie": "cercas",
+    "name": "Malla ciclonica PVC 1 metro de alto",
+    "description": "Malla ciclonica PVC 1 metro de alto x 20 metros de largo",
+    "price": 1012,
+    "image": "ciclonica-pvc-1.png"
+  },
+  {
+    "id": 89,
+    "categorie": "cercas",
+    "name": "Malla ciclonica PVC 1.50 metro de alto",
+    "description": "Malla ciclonica PVC 1.50 metro de alto x 20 metros de largo",
+    "price": 1472,
+    "image": "ciclonica-pvc-1-50.png"
+  },
+  {
+    "id": 90,
+    "categorie": "cercas",
+    "name": "Malla ciclonica PVC 2 metro de alto",
+    "description": "Malla ciclonica PVC 2 metro de alto x 20 metros de largo",
+    "price": 1977,
+    "image": "ciclonica-pvc-2.png"
+  },
+  {
+    "id": 91,
+    "categorie": "cercas",
+    "name": "Cadena 1/4",
+    "description": "Metro de cadena 1/4 pulida",
+    "price": 42,
+    "image": "cadena-1-4.png"
+  },
+  {
+    "id": 92,
+    "categorie": "cercas",
+    "name": "Cadena 3/16",
+    "description": "Metro de cadena 3/16 pulida",
+    "price": 22,
+    "image": "cadena-3-16.png"
+  },
+  {
+    "id": 93,
+    "categorie": "cercas",
+    "name": "Cadena 3/8",
+    "description": "Metro de cadena 3/8 pulida",
+    "price": 98,
+    "image": "cadena-3-8.png"
+  },
+  {
+    "id": 94,
+    "categorie": "cercas",
+    "name": "Panel verde",
+    "description": "Panel verde 1 metro de alto x 2.5 de ancho",
+    "price": 620,
+    "image": "panel-verde-1.png"
+  },
+  {
+    "id": 95,
+    "categorie": "cercas",
+    "name": "Panel verde",
+    "description": "Panel verde 1.5 metro de alto x 2.5 de ancho",
+    "price": 883,
+    "image": "panel-verde-1-5.png"
+  },
+  {
+    "id": 96,
+    "categorie": "cercas",
+    "name": "Panel verde",
+    "description": "Panel verde 2 metro de alto x 2.5 de ancho",
+    "price": 1143,
+    "image": "panel-verde-1-2.png"
+  },
+  {
+    "id": 97,
+    "categorie": "cercas",
+    "name": "Panel blanco",
+    "description": "Panel blanco 1 metro de alto x 2.5 de ancho",
+    "price": 620,
+    "image": "panel-blanco-1.png"
+  },
+  {
+    "id": 98,
+    "categorie": "cercas",
+    "name": "Panel blanco",
+    "description": "Panel blanco 1.5 metro de alto x 2.5 de ancho",
+    "price": 883,
+    "image": "panel-blanco-1-5.png"
+  },
+  {
+    "id": 99,
+    "categorie": "cercas",
+    "name": "Panel blanco",
+    "description": "Panel blanco 2 metro de alto x 2.5 de ancho",
+    "price": 1143,
+    "image": "panel-blanco-1-2.png"
+  },
+  {
+    "id": 100,
+    "categorie": "cercas",
+    "name": "Abrazadera blanca",
+    "description": "Abrazadera blanca para panel 2 1/4 x 2  1/4 con tornillo",
+    "price": 35,
+    "image": "abrazadera-blanca.png"
+  },
+  {
+    "id": 101,
+    "categorie": "cercas",
+    "name": "Abrazadera verde",
+    "description": "Abrazadera verde para panel 2 1/4 x 2  1/4 con tornillo",
+    "price": 35,
+    "image": "abrazadera-verde.png"
+  },
+  {
+    "id": 102,
+    "categorie": "cercas",
+    "name": "Tapon de plastico",
+    "description": "Tapon de plastico 2 1/4 x 2 1/4 de pulgada",
+    "price": 9,
+    "image": "tapon-plastico-2-1-4.png"
+  },
+  {
+    "id": 103,
+    "categorie": "cercas",
+    "name": "Base para poste",
+    "description": "Base para poste de 2 1/4 x 2 1/4 de pulgada",
+    "price": 186,
+    "image": "base.png"
+  },
+  {
+    "id": 104,
+    "categorie": "cercas",
+    "name": "Tubo galvanizado 3 pulgadas",
+    "description": "Tubo galvanizado 3 pulgadas x 6 metros de largo",
+    "price": 477,
+    "image": "tubo-3.png"
+  },
+  {
+    "id": 105,
+    "categorie": "cercas",
+    "name": "Tubo galvanizado 2 1/2 pulgadas",
+    "description": "Tubo galvanizado 2 1/2 pulgadas x 6 metros de largo",
+    "price": 442,
+    "image": "tubo-2-1-2.png"
+  },
+  {
+    "id": 106,
+    "categorie": "cercas",
+    "name": "Tubo galvanizado 2 pulgadas",
+    "description": "Tubo galvanizado 2 pulgadas x 6 metros de largo",
+    "price": 477,
+    "image": "tubo-2.png"
+  },
+  {
+    "id": 107,
+    "categorie": "cercas",
+    "name": "Tubo galvanizado 1 1/2 pulgadas",
+    "description": "Tubo galvanizado 1 1/2 pulgadas x 6 metros de largo",
+    "price": 442,
+    "image": "tubo-1-1-2.png"
+  },
+
+
 
 ]
 
