@@ -670,7 +670,7 @@ const materiales =  [
     "name": "Picos para barda",
     "description": "Picos para barda 1 metro de largo",
     "price": 139,
-    "image": "picos.png"
+    "image": "cercas/picos.png"
   },
   {
     "id": 82,
@@ -678,7 +678,7 @@ const materiales =  [
     "name": "Malla ciclonica 1 metro de alto",
     "description": "Malla ciclonica 1 metro de alto x 20 metros de largo",
     "price": 620,
-    "image": "ciclonica-1.png"
+    "image": "cercas/ciclonica-1.png"
   },
   {
     "id": 83,
@@ -686,7 +686,7 @@ const materiales =  [
     "name": "Malla ciclonica 1.50 metro de alto",
     "description": "Malla ciclonica 1.50 metro de alto x 20 metros de largo",
     "price": 930,
-    "image": "ciclonica-1-50.png"
+    "image": "cercas/ciclonica-1-50.png"
   },
   {
     "id": 84,
@@ -694,7 +694,7 @@ const materiales =  [
     "name": "Malla ciclonica 1.75 metro de alto",
     "description": "Malla ciclonica 1.75 metro de alto x 20 metros de largo",
     "price": 987,
-    "image": "ciclonica-1-75.png"
+    "image": "cercas/ciclonica-1-75.png"
   },
   {
     "id": 85,
@@ -702,7 +702,7 @@ const materiales =  [
     "name": "Malla ciclonica 2 metro de alto",
     "description": "Malla ciclonica 2 metro de alto x 20 metros de largo",
     "price": 1240,
-    "image": "ciclonica-2.png"
+    "image": "cercas/ciclonica-2.png"
   },
   {
     "id": 86,
@@ -710,7 +710,7 @@ const materiales =  [
     "name": "Malla ciclonica reforzada 1.50 metro de alto",
     "description": "Malla ciclonica reforzada 1.50 metro de alto x 20 metros de largo",
     "price": 2195,
-    "image": "ciclonica-ref-1-50.png"
+    "image": "cercas/ciclonica-ref-1-50.png"
   },
   {
     "id": 87,
@@ -718,7 +718,7 @@ const materiales =  [
     "name": "Malla ciclonica reforzada 2 metro de alto",
     "description": "Malla ciclonica reforzada 2 metro de alto x 20 metros de largo",
     "price": 2950,
-    "image": "ciclonica-ref-2.png"
+    "image": "cercas/ciclonica-ref-2.png"
   },
   {
     "id": 88,
@@ -726,7 +726,7 @@ const materiales =  [
     "name": "Malla ciclonica PVC 1 metro de alto",
     "description": "Malla ciclonica PVC 1 metro de alto x 20 metros de largo",
     "price": 1012,
-    "image": "ciclonica-pvc-1.png"
+    "image": "cercas/ciclonica-pvc-1.png"
   },
   {
     "id": 89,
@@ -734,7 +734,7 @@ const materiales =  [
     "name": "Malla ciclonica PVC 1.50 metro de alto",
     "description": "Malla ciclonica PVC 1.50 metro de alto x 20 metros de largo",
     "price": 1472,
-    "image": "ciclonica-pvc-1-50.png"
+    "image": "cercas/ciclonica-pvc-1-50.png"
   },
   {
     "id": 90,
@@ -742,7 +742,7 @@ const materiales =  [
     "name": "Malla ciclonica PVC 2 metro de alto",
     "description": "Malla ciclonica PVC 2 metro de alto x 20 metros de largo",
     "price": 1977,
-    "image": "ciclonica-pvc-2.png"
+    "image": "cercas/ciclonica-pvc-2.png"
   },
   {
     "id": 91,
@@ -750,7 +750,7 @@ const materiales =  [
     "name": "Cadena 1/4",
     "description": "Metro de cadena 1/4 pulida",
     "price": 42,
-    "image": "cadena-1-4.png"
+    "image": "cercas/cadena-1-4.png"
   },
   {
     "id": 92,
@@ -758,7 +758,7 @@ const materiales =  [
     "name": "Cadena 3/16",
     "description": "Metro de cadena 3/16 pulida",
     "price": 22,
-    "image": "cadena-3-16.png"
+    "image": "cercas/cadena-3-16.png"
   },
   {
     "id": 93,
@@ -766,7 +766,7 @@ const materiales =  [
     "name": "Cadena 3/8",
     "description": "Metro de cadena 3/8 pulida",
     "price": 98,
-    "image": "cadena-3-8.png"
+    "image": "cercas/cadena-3-8.png"
   },
   {
     "id": 94,
@@ -774,7 +774,7 @@ const materiales =  [
     "name": "Panel verde",
     "description": "Panel verde 1 metro de alto x 2.5 de ancho",
     "price": 620,
-    "image": "panel-verde-1.png"
+    "image": "cercas/panel-verde-1.png"
   },
   {
     "id": 95,
@@ -782,7 +782,7 @@ const materiales =  [
     "name": "Panel verde",
     "description": "Panel verde 1.5 metro de alto x 2.5 de ancho",
     "price": 883,
-    "image": "panel-verde-1-5.png"
+    "image": "cercas/panel-verde-1-5.png"
   },
   {
     "id": 96,
@@ -790,7 +790,7 @@ const materiales =  [
     "name": "Panel verde",
     "description": "Panel verde 2 metro de alto x 2.5 de ancho",
     "price": 1143,
-    "image": "panel-verde-1-2.png"
+    "image": "cercas/panel-verde-1-2.png"
   },
   {
     "id": 97,
@@ -798,7 +798,7 @@ const materiales =  [
     "name": "Panel blanco",
     "description": "Panel blanco 1 metro de alto x 2.5 de ancho",
     "price": 620,
-    "image": "panel-blanco-1.png"
+    "image": "cercas/panel-blanco-1.png"
   },
   {
     "id": 98,
@@ -806,7 +806,7 @@ const materiales =  [
     "name": "Panel blanco",
     "description": "Panel blanco 1.5 metro de alto x 2.5 de ancho",
     "price": 883,
-    "image": "panel-blanco-1-5.png"
+    "image": "cercas/panel-blanco-1-5.png"
   },
   {
     "id": 99,
@@ -814,7 +814,7 @@ const materiales =  [
     "name": "Panel blanco",
     "description": "Panel blanco 2 metro de alto x 2.5 de ancho",
     "price": 1143,
-    "image": "panel-blanco-1-2.png"
+    "image": "cercas/panel-blanco-1-2.png"
   },
   {
     "id": 100,
@@ -822,7 +822,7 @@ const materiales =  [
     "name": "Abrazadera blanca",
     "description": "Abrazadera blanca para panel 2 1/4 x 2  1/4 con tornillo",
     "price": 35,
-    "image": "abrazadera-blanca.png"
+    "image": "cercas/abrazadera-blanca.png"
   },
   {
     "id": 101,
@@ -830,7 +830,7 @@ const materiales =  [
     "name": "Abrazadera verde",
     "description": "Abrazadera verde para panel 2 1/4 x 2  1/4 con tornillo",
     "price": 35,
-    "image": "abrazadera-verde.png"
+    "image": "cercas/abrazadera-verde.png"
   },
   {
     "id": 102,
@@ -838,7 +838,7 @@ const materiales =  [
     "name": "Tapon de plastico",
     "description": "Tapon de plastico 2 1/4 x 2 1/4 de pulgada",
     "price": 9,
-    "image": "tapon-plastico-2-1-4.png"
+    "image": "cercas/tapon-plastico-2-1-4.png"
   },
   {
     "id": 103,
@@ -846,7 +846,7 @@ const materiales =  [
     "name": "Base para poste",
     "description": "Base para poste de 2 1/4 x 2 1/4 de pulgada",
     "price": 186,
-    "image": "base.png"
+    "image": "cercas/base.png"
   },
   {
     "id": 104,
@@ -854,7 +854,7 @@ const materiales =  [
     "name": "Tubo galvanizado 3 pulgadas",
     "description": "Tubo galvanizado 3 pulgadas x 6 metros de largo",
     "price": 477,
-    "image": "tubo-3.png"
+    "image": "cercas/tubo-3.png"
   },
   {
     "id": 105,
@@ -862,7 +862,7 @@ const materiales =  [
     "name": "Tubo galvanizado 2 1/2 pulgadas",
     "description": "Tubo galvanizado 2 1/2 pulgadas x 6 metros de largo",
     "price": 442,
-    "image": "tubo-2-1-2.png"
+    "image": "cercas/tubo-2-1-2.png"
   },
   {
     "id": 106,
@@ -870,7 +870,7 @@ const materiales =  [
     "name": "Tubo galvanizado 2 pulgadas",
     "description": "Tubo galvanizado 2 pulgadas x 6 metros de largo",
     "price": 477,
-    "image": "tubo-2.png"
+    "image": "cercas/tubo-2.png"
   },
   {
     "id": 107,
@@ -878,7 +878,7 @@ const materiales =  [
     "name": "Tubo galvanizado 1 1/2 pulgadas",
     "description": "Tubo galvanizado 1 1/2 pulgadas x 6 metros de largo",
     "price": 442,
-    "image": "tubo-1-1-2.png"
+    "image": "cercas/tubo-1-1-2.png"
   },
 
 
