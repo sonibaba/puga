@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="q-px-md q-py-lg">
-      <div class="row q-col-gutter-md justify-center">
-        <div class="col-12 col-sm-8 col-md-7 col-lg-7 ">
+      <div ref="content" class="row q-col-gutter-md justify-center">
+        <div  class="col-12 col-sm-8 col-md-7 col-lg-7 ">
           <q-card flat bordered class="my-card bg-grey-1">
             <q-card-section class="bg-teal text-white">
               <div class="row items-center no-wrap">
@@ -13,7 +13,7 @@
             </q-card-section>
           </q-card>
           <q-separator />
-          <q-card class="my-card" v-for="(pro,index) in products" :key="index">
+          <q-card  class="my-card" v-for="(pro,index) in products" :key="index">
             <q-card-section>
               <div class="row q-col-gutter-md justify-around">
               <div class=" col-12 col-sm-6 col-md-3 col-lg-3">
@@ -57,6 +57,8 @@
                 </div>
               </div>
             </q-card-section>
+            <button @click="downloadWithCSS">Download PDF</button>
+
           </q-card>
         </div>
       </div>
@@ -82,6 +84,8 @@
 <script>
   import EventBus from '../../bus'
   import cart from '../../products'
+  import jsPDF from 'jspdf'
+  import html2canvas from "html2canvas"
   export default {
     components: {},
     data() {
