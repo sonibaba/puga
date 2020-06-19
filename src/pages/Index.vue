@@ -28,14 +28,14 @@
           <div>
             <q-card flat class="my-card bg-orange-8">
               <q-card-section>
-                <div class=" text-h4 text-white">Proyectos Puga</div>
+                <div class=" text-h4 text-white text-center">Proyectos Puga</div>
               </q-card-section>
               <q-separator />
               <q-card-section>
-                <div class="my-font text-h6 text-white">VARIEDAD DE MATERIALES PARA TUS PROYECTOS</div>
+                <div class="my-font text-h6 text-white ">VARIEDAD DE MATERIALES PARA TUS PROYECTOS</div>
                 <!-- <div class="text-subtitle2 text-white">realiza tus ideas al mas bajo costo</div> -->
                 <br>
-                <q-btn class="full-width" size="22px" color="white" text-color="orange-8" label="Cotice con nosotros" />
+                <q-btn to="shoppingCart" class="full-width" size="15px" color="white" text-color="orange-8" label="Cotice con nosotros" />
               </q-card-section>
             </q-card>
           </div>
@@ -43,9 +43,12 @@
           <div>
             <q-card flat bordered class="my-card">
               <q-card-section>
-                <!-- <q-separator color="orange"/> -->
-                <br>
-                <div class="text-center text-secondary my-font text-h6">Av. Ciro Purata #100 Col. Cuauhtémoc CP. 79040</div>
+                <div class="text-center text-secondary my-font text-h6">
+                  <q-img width="80px" src="https://www.pinclipart.com/picdir/big/258-2581791_google-maps-markerphoto-imagegoogle-maps-api-clipart.png"/>
+                </div>
+                <div class="text-center text-secondary my-font text-h6">
+                  Av. Ciro Purata #100 Col. Cuauhtémoc CP. 79040 <br> (frente a las taquilla de la feria)
+                </div>
               </q-card-section>
               <q-card-section>
                 <q-btn class="full-width" to="/location" size="22px" color="orange-8" text-color="white" label="Ubicación" />

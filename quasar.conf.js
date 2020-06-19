@@ -56,6 +56,7 @@ module.exports = function (ctx) {
         'QInput',
         'QToggle',
         'QCard',
+        'QOptionGroup',
         'QCardSection',
         'QCardActions',
         'QLinearProgress',

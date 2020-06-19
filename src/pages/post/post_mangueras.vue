@@ -8,32 +8,30 @@
         </div>
         <div class="col-12 col-sm-8 col-md-9 col-lg-9">
           <div class="row q-col-gutter-md">
-              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center" v-for="(item,idex) in posts" :key="idex">
-                <q-card flat bordered class="my-card">
-
-                <q-img height="250" :src="require('../../assets/categories/'+item.image)" >
-                </q-img>
-                <q-separator/>
-                <q-card-section>
-                    <div class="text-h6 text-center">{{item.description}}</div> <br>
-                    <div class="text-h6 text-center text-orange-14">${{item.price}} MXN </div>
-                    <!-- <div class="text-subtitle2">{{item.description}}</div> -->
-                </q-card-section>
-                
-                <!-- <q-img  width="320px" height="250px" :src="require('../../assets/categories/'+item.image)" >
-                  <div class="absolute-bottom text-subtitle2 text-center">
-                    <b>{{item.name}}</b>
-                  </div>
-                </q-img>
-                <q-separator/>
-                <q-card-section>
-                    <div class="text-subtitle2 text-center">{{item.description}}</div>
-                    <div class="text-h6 text-center text-orange-14">${{item.price}} MXN </div>
-                    <div class="text-subtitle2 text-secondary">{{ item.title }}</div>
-                </q-card-section> -->
-                
-                <q-btn :to="'/product/'+item.id" color="orange-14" class="full-width"  label="Ver"
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/mangueras/agua-1-1-4-100mts.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                      Mangueras para agua
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/magueras_agua" color="orange-14" class="full-width"  label="Ver"
                     icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/mangueras/bicapa-1.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                      Mangueras bicapa
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/magueras_bicapa" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
                 </q-card>
               </div>
           </div> <br><br>

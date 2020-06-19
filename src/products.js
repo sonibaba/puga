@@ -114,7 +114,7 @@ const materiales =  [
   {
     "id": 15,
     "categorie": "mangueras",
-    "name": "bicapa",
+    "name": "Manguera bicapa",
     "description": "rollo de manguera bicapa ECO",
     "price": 219,
     "image": "mangueras/bicapa.png"
@@ -201,7 +201,7 @@ const materiales =  [
   },
   {
     "id": 26,
-    "categorie": "mangueras",
+    "categorie": "mangueras-agua",
     "name": "Manguera para agua 1/2 c-40",
     "description": "Rollo de manguera para agua 1/2 c-40",
     "price": 365,
@@ -209,7 +209,7 @@ const materiales =  [
   },
   {
     "id": 27,
-    "categorie": "mangueras",
+    "categorie": "mangueras-agua",
     "name": "Manguera para agua 3/4 c-40",
     "description": "Rollo de manguera para agua 3/4 c-40",
     "price": 548,
@@ -217,7 +217,7 @@ const materiales =  [
   },
   {
     "id": 28,
-    "categorie": "mangueras",
+    "categorie": "mangueras-agua",
     "name": "Manguera para agua 1 pulgada c-40",
     "description": "Rollo de manguera para agua de 1 pulgada c-40",
     "price": 804,
@@ -225,7 +225,7 @@ const materiales =  [
   },
   {
     "id": 29,
-    "categorie": "mangueras",
+    "categorie": "mangueras-agua",
     "name": "Manguera para agua 1 1/4 de pulgada 50 metros",
     "description": "Rollo de manguera para agua de 1 1/4 de pulgada 50 metros",
     "price": 621,
@@ -233,7 +233,7 @@ const materiales =  [
   },
   {
     "id": 30,
-    "categorie": "mangueras",
+    "categorie": "mangueras-agua",
     "name": "Manguera para agua 1 1/4 de pulgada 100 metros",
     "description": "Rollo de manguera para agua de 1 1/4 de pulgada 100 metros",
     "price": 1206,
@@ -241,7 +241,7 @@ const materiales =  [
   },
   {
     "id": 31,
-    "categorie": "mangueras",
+    "categorie": "mangueras-agua",
     "name": "Manguera para agua 1 1/2 de pulgada 50 metros",
     "description": "Rollo de manguera para agua de 1 1/2 de pulgada 50 metros",
     "price": 804,
@@ -249,7 +249,7 @@ const materiales =  [
   },
   {
     "id": 32,
-    "categorie": "mangueras",
+    "categorie": "mangueras-agua",
     "name": "Manguera para agua 1 1/2 de pulgada 100 metros",
     "description": "Rollo de manguera para agua de 1 1/2 de pulgada 100 metros",
     "price": 1608,
@@ -257,7 +257,7 @@ const materiales =  [
   },
   {
     "id": 33,
-    "categorie": "mangueras",
+    "categorie": "mangueras-agua",
     "name": "Manguera para agua 2 pulgadas 50 metros",
     "description": "Rollo de manguera para agua de 2 pulgadas 50 metros",
     "price": 1169,
@@ -265,7 +265,7 @@ const materiales =  [
   },
   {
     "id": 34,
-    "categorie": "mangueras",
+    "categorie": "mangueras-agua",
     "name": "Manguera para agua 2 pulgadas 100 metros",
     "description": "Rollo de manguera para agua de 2 pulgadas 100 metros",
     "price": 1169,
@@ -1357,7 +1357,7 @@ const materiales =  [
     "name": "Segueta",
     "description": "Segueta truper",
     "price": 17,
-    "image": "herramientas/segueta.png"
+    "image": "herramientas/segueta1.png"
   },
   {
     "id": 172,

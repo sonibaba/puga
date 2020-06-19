@@ -36,6 +36,20 @@ const routes = [
     ]
   },
   {
+    path: '/magueras_agua',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/mangueras/mangueras_agua.vue') }
+    ]
+  },
+  {
+    path: '/magueras_bicapa',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/mangueras/mangueras_bicapa.vue') }
+    ]
+  },
+  {
     path: '/post_acero',
     component: () => import('layouts/MainLayout.vue'),
     children: [

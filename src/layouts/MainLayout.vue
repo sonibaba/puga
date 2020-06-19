@@ -137,7 +137,7 @@
             <li><a class="my-font" title="Facebook" href="https://web.facebook.com/jesusantonio.amadorsoni">Ing. Jesús Antonio Amador Soní</a> </li>
             <li></li>
             <li>Correo:</li>
-            <li><a>jesusantonioamadorsoni@gmail.com</a></li>
+            <li><a>jesusantonioamadorsoni<br>@gmail.com</a></li>
           </ul>
         </div>
         <div class="col"> <br>
