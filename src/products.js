@@ -273,7 +273,7 @@ const materiales =  [
   },
   {
     "id": 35,
-    "categorie": "acero",
+    "categorie": "acero-varilla",
     "name": " Varilla 3/8",
     "description": "Varilla corrugada de 3/8",
     "price": 113,
@@ -281,7 +281,7 @@ const materiales =  [
   },
   {
     "id": 36,
-    "categorie": "acero",
+    "categorie": "acero-varilla",
     "name": " Varilla 1/2",
     "description": "Varilla corrugada de 1/2",
     "price": 113,
@@ -289,7 +289,7 @@ const materiales =  [
   },
   {
     "id": 37,
-    "categorie": "acero",
+    "categorie": "acero-varilla",
     "name": " Varilla 5/8",
     "description": "Varilla corrugada de 5/8",
     "price": 113,
@@ -297,7 +297,7 @@ const materiales =  [
   },
   {
     "id": 38,
-    "categorie": "acero",
+    "categorie": "acero-varilla",
     "name": " Varilla 3/4",
     "description": "Varilla corrugada de 3/4",
     "price": 113,
@@ -305,7 +305,7 @@ const materiales =  [
   },
   {
     "id": 39,
-    "categorie": "acero",
+    "categorie": "acero-varilla",
     "name": " Varilla 1",
     "description": "Varilla corrugada de una pulgada",
     "price": 113,
@@ -313,7 +313,7 @@ const materiales =  [
   },
   {
     "id": 40,
-    "categorie": "acero",
+    "categorie": "acero-alambron",
     "name": "Alambron",
     "description": "Alambron por kilogramo",
     "price": 20,
@@ -321,7 +321,7 @@ const materiales =  [
   },
   {
     "id": 41,
-    "categorie": "acero",
+    "categorie": "acero-recocido",
     "name": "Alambre Recocido",
     "description": "Alambre Recocido por kilogramo",
     "price": 21,
@@ -329,7 +329,7 @@ const materiales =  [
   },
   {
     "id": 42,
-    "categorie": "acero",
+    "categorie": "acero-armex",
     "name": "Armex 12 x 12 x 4",
     "description": "Armex para castillo 12 x 12 x 4",
     "price": 130,
@@ -337,7 +337,7 @@ const materiales =  [
   },
   {
     "id": 43,
-    "categorie": "acero",
+    "categorie": "acero-armex",
     "name": "Armex 12 x 20 x 4",
     "description": "Armex para cadena 12 x 20 x 4",
     "price": 130,
@@ -345,7 +345,7 @@ const materiales =  [
   },
   {
     "id": 44,
-    "categorie": "acero",
+    "categorie": "acero-armex",
     "name": "Armex 15 x 15 x 4",
     "description": "Armex para castillo 15 x 15 x 4",
     "price": 130,
@@ -353,7 +353,7 @@ const materiales =  [
   },
   {
     "id": 45,
-    "categorie": "acero",
+    "categorie": "acero-armex",
     "name": "Armex 15 x 20 x 4",
     "description": "Armex para cadena 15 x 20 x 4",
     "price": 130,
@@ -361,7 +361,7 @@ const materiales =  [
   },
   {
     "id": 46,
-    "categorie": "acero",
+    "categorie": "acero-losa",
     "name": "Malla losa 6 x6 - 66",
     "description": "Malla para losa por rollo",
     "price": 3400,
@@ -369,7 +369,7 @@ const materiales =  [
   },
   {
     "id": 47,
-    "categorie": "acero",
+    "categorie": "acero-losa",
     "name": "Malla losa 6 x6 - 66",
     "description": "Malla para losa por metro cuadrado",
     "price": 40,
@@ -377,7 +377,7 @@ const materiales =  [
   },
   {
     "id": 48,
-    "categorie": "acero",
+    "categorie": "acero-piso",
     "name": "Malla piso 10 x10 - 66",
     "description": "Malla para losa por rollo",
     "price": 1800,
@@ -385,15 +385,23 @@ const materiales =  [
   },
   {
     "id": 49,
-    "categorie": "acero",
+    "categorie": "acero-piso",
     "name": "Malla piso 10 x 10 - 66",
     "description": "Malla para piso por metro cuadrado",
     "price": 22,
     "image": "acero/mallapiso-metro.png"
   },
   {
+    "id": 65,
+    "categorie": "acero-plafonera",
+    "name": "Plafonera 500 x 22",
+    "description": "Rollo de malla plafonera 500 x 20",
+    "price": 516,
+    "image": "agropecuarios/plafonera.png"
+  },
+  {
     "id": 50,
-    "categorie": "clavos",
+    "categorie": "clavos-madera",
     "name": "Clavo para madera dos pulgadas",
     "description": "Kilogramo de clavo para madera de dos pulgadas",
     "price": 27,
@@ -401,7 +409,7 @@ const materiales =  [
   },
   {
     "id": 51,
-    "categorie": "clavos",
+    "categorie": "clavos-madera",
     "name": "Clavo para madera 2 1/2 pulgadas",
     "description": "Kilogramo de clavo para madera de 2 1/2 pulgadas",
     "price": 27,
@@ -409,7 +417,7 @@ const materiales =  [
   },
   {
     "id": 52,
-    "categorie": "clavos",
+    "categorie": "clavos-madera",
     "name": "Clavo para madera tres pulgadas",
     "description": "Kilogramo de clavo para madera de tres pulgadas",
     "price": 27,
@@ -417,7 +425,7 @@ const materiales =  [
   },
   {
     "id": 53,
-    "categorie": "clavos",
+    "categorie": "clavos-madera",
     "name": "Clavo para madera cuatro pulgadas",
     "description": "Kilogramo de clavo para madera de cuatro pulgadas",
     "price": 27,
@@ -425,7 +433,7 @@ const materiales =  [
   },
   {
     "id": 54,
-    "categorie": "clavos",
+    "categorie": "clavos-madera",
     "name": "Clavo reforzado cuatro pulgadas",
     "description": "Kilogramo de clavo reforzado de cuatro pulgadas",
     "price": 73,
@@ -433,7 +441,7 @@ const materiales =  [
   },
   {
     "id": 55,
-    "categorie": "clavos",
+    "categorie": "clavos-concreto",
     "name": "Clavo para concreto dos pulgadas",
     "description": "Kilogramo de clavo de acero medida dos pulgadas",
     "price": 41,
@@ -441,7 +449,7 @@ const materiales =  [
   },
   {
     "id": 56,
-    "categorie": "clavos",
+    "categorie": "clavos-concreto",
     "name": "Clavo para concreto 2 1/2 pulgadas",
     "description": "Kilogramo de clavo de acero medida 2 1/2 pulgadas",
     "price": 41,
@@ -449,7 +457,7 @@ const materiales =  [
   },
   {
     "id": 57,
-    "categorie": "clavos",
+    "categorie": "clavos-concreto",
     "name": "Clavo para concreto tres pulgadas",
     "description": "Kilogramo de clavo de acero medida tres pulgadas",
     "price": 41,
@@ -457,7 +465,7 @@ const materiales =  [
   },
   {
     "id": 58,
-    "categorie": "clavos",
+    "categorie": "clavos-paraguas",
     "name": "Clavo paraaguas",
     "description": "Kilogramo de clavo paraguas de 2 1/2",
     "price": 41,
@@ -465,7 +473,7 @@ const materiales =  [
   },
   {
     "id": 59,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-borreguera",
     "name": "Borreguera 1 x 50",
     "description": "Rollo de malla borreguera 1 metro de alto x 20 metros",
     "price": 714,
@@ -473,7 +481,7 @@ const materiales =  [
   },
   {
     "id": 60,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-borreguera",
     "name": "Borreguera 1.20 x 50",
     "description": "Rollo de malla borreguera 1.20 metros de alto x 20 metros",
     "price": 863,
@@ -481,7 +489,7 @@ const materiales =  [
   },
   {
     "id": 61,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-borreguera",
     "name": "Borreguera 1.75 x 50",
     "description": "Rollo de malla borreguera 1.75 metros de alto x 20 metros",
     "price": 1105,
@@ -489,7 +497,7 @@ const materiales =  [
   },
   {
     "id": 62,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-gallinera",
     "name": "Gallinera 1.75 x 45",
     "description": "Rollo de malla gallinera 1.75 metros de alto x 20 metros",
     "price": 909,
@@ -497,7 +505,7 @@ const materiales =  [
   },
   {
     "id": 63,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-gallinera",
     "name": "Gallinera 1.50 x 45",
     "description": "Rollo de malla gallinera 1.50 metros de alto x 20 metros",
     "price": 776,
@@ -505,23 +513,15 @@ const materiales =  [
   },
   {
     "id": 64,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-gallinera",
     "name": "Pollera 1.00 x 45",
     "description": "Rollo de malla gallinera 1 metro de alto x 20 metros",
     "price": 793,
     "image": "agropecuarios/pollera-1.png"
   },
   {
-    "id": 65,
-    "categorie": "agropecuarios",
-    "name": "Plafonera 500 x 22",
-    "description": "Rollo de malla plafonera 500 x 20",
-    "price": 516,
-    "image": "agropecuarios/plafonera.png"
-  },
-  {
     "id": 66,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-criba",
     "name": "criba 5 x 5 - 10",
     "description": "Rollo de criba 5 x 5 - 10",
     "price": 857,
@@ -529,7 +529,7 @@ const materiales =  [
   },
   {
     "id": 67,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-criba",
     "name": "criba 8 x 8 - 10",
     "description": "Rollo de criba 8 x 8 - 10",
     "price": 986,
@@ -537,7 +537,7 @@ const materiales =  [
   },
   {
     "id": 68,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-multimalla",
     "name": "Multimalla 5 x 5 - 20",
     "description": "Multimalla 5 x 5 - 20, un metro de alto, cal. 14",
     "price": 1087,
@@ -545,7 +545,7 @@ const materiales =  [
   },
   {
     "id": 69,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-multimalla",
     "name": "Multimalla 5 x 10 - 20",
     "description": "Multimalla 5 x 10 - 20, 1.22 metros de alto, cal. 14",
     "price": 1014,
@@ -553,7 +553,7 @@ const materiales =  [
   },
   {
     "id": 70,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-mosquitera",
     "name": "Mosquitera 1.05 metros de alto",
     "description": "Rollo de mosquitera 1.05 metros de alto",
     "price": 1260,
@@ -561,7 +561,7 @@ const materiales =  [
   },
   {
     "id": 71,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-mosquitera",
     "name": "Mosquitera 1.20 metros de alto",
     "description": "Rollo de mosquitera 1.20 metros de alto",
     "price": 1439,
@@ -569,7 +569,7 @@ const materiales =  [
   },
   {
     "id": 72,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-grapa",
     "name": "Grapa 1 1/4 de pulgada",
     "description": "Kilogramo de grapa de 1 1/4 de pulgada",
     "price": 37,
@@ -577,7 +577,7 @@ const materiales =  [
   },
   {
     "id": 73,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-grapa",
     "name": "Grapa 1 de pulgada",
     "description": "Kilogramo de grapa de 1 de pulgada",
     "price": 37,
@@ -585,23 +585,23 @@ const materiales =  [
   },
   {
     "id": 74,
-    "categorie": "agropecuarios",
-    "name": "Alambre de púas",
+    "categorie": "agropecuarios-puas",
+    "name": "Alambre de púas para ganado",
     "description": "Rollo de alambre de puas 351 metros",
     "price": 852,
     "image": "agropecuarios/puas-351.png"
   },
   {
     "id": 75,
-    "categorie": "agropecuarios",
-    "name": "Alambre de púas",
+    "categorie": "agropecuarios-puas",
+    "name": "Alambre de púas para ganado",
     "description": "Rollo de alambre de puas 310 metros",
-    "price": 852,
+    "price": 752,
     "image": "agropecuarios/puas-310.png"
   },
   {
     "id": 76,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-puas",
     "name": "Alambre de púas vaquero",
     "description": "Rollo de alambre vaquero de puas 250 metros",
     "price": 442,
@@ -609,31 +609,39 @@ const materiales =  [
   },
   {
     "id": 77,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-puas",
     "name": "Alambre de púas san",
     "description": "Rollo de alambre san de puas 360 metros",
     "price": 540,
     "image": "agropecuarios/puas-360.png"
   },
   {
-    "id": 78,
-    "categorie": "agropecuarios",
-    "name": "Separadores",
-    "description": "separadores 1.07 metros de alto",
-    "price": 11,
-    "image": "agropecuarios/separadores.png"
-  },
-  {
     "id": 79,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-poste",
     "name": "Poste T ligero",
     "description": "Poste T ligero de 6 pies",
     "price": 99,
     "image": "agropecuarios/poste-t.png"
   },
   {
+    "id": 78,
+    "categorie": "agropecuarios-poste",
+    "name": "Separadores",
+    "description": "Separadores 1.07 metros de alto",
+    "price": 11,
+    "image": "agropecuarios/separadores.png"
+  },
+  {
+    "id": 237,
+    "categorie": "agropecuarios-poste",
+    "name": "Driver para poste",
+    "description": "Driver para poste",
+    "price": 1125,
+    "image": "herramientas/driver.png"
+  },
+  {
     "id": 80,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-poste",
     "name": "Clip",
     "description": "Clip para poste",
     "price": 1,
@@ -641,7 +649,7 @@ const materiales =  [
   },
   {
     "id": 81,
-    "categorie": "agropecuarios",
+    "categorie": "agropecuarios-electrico",
     "name": "Cerco electrico",
     "description": "Cerco eléctrico 500 metros cal.14",
     "price": 531,
@@ -649,7 +657,7 @@ const materiales =  [
   },
   {
     "id": 82,
-    "categorie": "cercas",
+    "categorie": "cercas-proteccion",
     "name": "Concertina",
     "description": "Rollo de concertina 7 metros",
     "price": 276,
@@ -657,7 +665,7 @@ const materiales =  [
   },
   {
     "id": 83,
-    "categorie": "cercas",
+    "categorie": "cercas-proteccion",
     "name": "Picos para barda",
     "description": "Picos para barda 1 metro de largo",
     "price": 139,
@@ -665,7 +673,7 @@ const materiales =  [
   },
   {
     "id": 84,
-    "categorie": "cercas",
+    "categorie": "cercas-ciclon",
     "name": "Malla ciclonica 1 metro de alto",
     "description": "Malla ciclonica 1 metro de alto x 20 metros de largo",
     "price": 620,
@@ -673,7 +681,7 @@ const materiales =  [
   },
   {
     "id": 85,
-    "categorie": "cercas",
+    "categorie": "cercas-ciclon",
     "name": "Malla ciclonica 1.50 metro de alto",
     "description": "Malla ciclonica 1.50 metro de alto x 20 metros de largo",
     "price": 930,
@@ -681,7 +689,7 @@ const materiales =  [
   },
   {
     "id": 86,
-    "categorie": "cercas",
+    "categorie": "cercas-ciclon",
     "name": "Malla ciclonica 1.75 metro de alto",
     "description": "Malla ciclonica 1.75 metro de alto x 20 metros de largo",
     "price": 987,
@@ -689,7 +697,7 @@ const materiales =  [
   },
   {
     "id": 87,
-    "categorie": "cercas",
+    "categorie": "cercas-ciclon",
     "name": "Malla ciclonica 2 metro de alto",
     "description": "Malla ciclonica 2 metro de alto x 20 metros de largo",
     "price": 1240,
@@ -697,7 +705,7 @@ const materiales =  [
   },
   {
     "id": 88,
-    "categorie": "cercas",
+    "categorie": "cercas-reforzada",
     "name": "Malla ciclonica reforzada 1.50 metro de alto",
     "description": "Malla ciclonica reforzada 1.50 metro de alto x 20 metros de largo",
     "price": 2195,
@@ -705,7 +713,7 @@ const materiales =  [
   },
   {
     "id": 89,
-    "categorie": "cercas",
+    "categorie": "cercas-reforzada",
     "name": "Malla ciclonica reforzada 2 metro de alto",
     "description": "Malla ciclonica reforzada 2 metro de alto x 20 metros de largo",
     "price": 2950,
@@ -713,7 +721,7 @@ const materiales =  [
   },
   {
     "id": 90,
-    "categorie": "cercas",
+    "categorie": "cercas-verde",
     "name": "Malla ciclonica PVC 1 metro de alto",
     "description": "Malla ciclonica PVC 1 metro de alto x 20 metros de largo",
     "price": 1012,
@@ -721,7 +729,7 @@ const materiales =  [
   },
   {
     "id": 91,
-    "categorie": "cercas",
+    "categorie": "cercas-verde",
     "name": "Malla ciclonica PVC 1.50 metro de alto",
     "description": "Malla ciclonica PVC 1.50 metro de alto x 20 metros de largo",
     "price": 1472,
@@ -729,7 +737,7 @@ const materiales =  [
   },
   {
     "id": 92,
-    "categorie": "cercas",
+    "categorie": "cercas-verde",
     "name": "Malla ciclonica PVC 2 metro de alto",
     "description": "Malla ciclonica PVC 2 metro de alto x 20 metros de largo",
     "price": 1977,
@@ -761,7 +769,7 @@ const materiales =  [
   },
   {
     "id": 96,
-    "categorie": "cercas",
+    "categorie": "cercas-panel",
     "name": "Panel verde",
     "description": "Panel verde 1 metro de alto x 2.5 de ancho",
     "price": 620,
@@ -769,7 +777,7 @@ const materiales =  [
   },
   {
     "id": 97,
-    "categorie": "cercas",
+    "categorie": "cercas-panel",
     "name": "Panel verde",
     "description": "Panel verde 1.5 metro de alto x 2.5 de ancho",
     "price": 883,
@@ -777,7 +785,7 @@ const materiales =  [
   },
   {
     "id": 98,
-    "categorie": "cercas",
+    "categorie": "cercas-panel",
     "name": "Panel verde",
     "description": "Panel verde 2 metro de alto x 2.5 de ancho",
     "price": 1143,
@@ -785,7 +793,7 @@ const materiales =  [
   },
   {
     "id": 99,
-    "categorie": "cercas",
+    "categorie": "cercas-panel",
     "name": "Panel blanco",
     "description": "Panel blanco 1 metro de alto x 2.5 de ancho",
     "price": 620,
@@ -793,7 +801,7 @@ const materiales =  [
   },
   {
     "id": 100,
-    "categorie": "cercas",
+    "categorie": "cercas-panel",
     "name": "Panel blanco",
     "description": "Panel blanco 1.5 metro de alto x 2.5 de ancho",
     "price": 883,
@@ -801,7 +809,7 @@ const materiales =  [
   },
   {
     "id": 101,
-    "categorie": "cercas",
+    "categorie": "cercas-panel",
     "name": "Panel blanco",
     "description": "Panel blanco 2 metro de alto x 2.5 de ancho",
     "price": 1143,
@@ -809,7 +817,7 @@ const materiales =  [
   },
   {
     "id": 102,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios",
     "name": "Abrazadera blanca",
     "description": "Abrazadera blanca para panel 2 1/4 x 2  1/4 con tornillo",
     "price": 35,
@@ -817,7 +825,7 @@ const materiales =  [
   },
   {
     "id": 103,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios",
     "name": "Abrazadera verde",
     "description": "Abrazadera verde para panel 2 1/4 x 2  1/4 con tornillo",
     "price": 35,
@@ -825,7 +833,7 @@ const materiales =  [
   },
   {
     "id": 104,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios",
     "name": "Tapon de plastico",
     "description": "Tapon de plastico 2 1/4 x 2 1/4 de pulgada",
     "price": 9,
@@ -833,7 +841,7 @@ const materiales =  [
   },
   {
     "id": 105,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios",
     "name": "Base para poste",
     "description": "Base para poste de 2 1/4 x 2 1/4 de pulgada",
     "price": 186,
@@ -841,7 +849,7 @@ const materiales =  [
   },
   {
     "id": 106,
-    "categorie": "cercas",
+    "categorie": "cercas-tubo",
     "name": "Tubo galvanizado 3 pulgadas",
     "description": "Tubo galvanizado 3 pulgadas x 6 metros de largo",
     "price": 477,
@@ -849,7 +857,7 @@ const materiales =  [
   },
   {
     "id": 107,
-    "categorie": "cercas",
+    "categorie": "cercas-tubo",
     "name": "Tubo galvanizado 2 1/2 pulgadas",
     "description": "Tubo galvanizado 2 1/2 pulgadas x 6 metros de largo",
     "price": 442,
@@ -857,7 +865,7 @@ const materiales =  [
   },
   {
     "id": 108,
-    "categorie": "cercas",
+    "categorie": "cercas-tubo",
     "name": "Tubo galvanizado 2 pulgadas",
     "description": "Tubo galvanizado 2 pulgadas x 6 metros de largo",
     "price": 477,
@@ -865,7 +873,7 @@ const materiales =  [
   },
   {
     "id": 109,
-    "categorie": "cercas",
+    "categorie": "cercas-tubo",
     "name": "Tubo galvanizado 1 1/2 pulgadas",
     "description": "Tubo galvanizado 1 1/2 pulgadas x 6 metros de largo",
     "price": 442,
@@ -873,7 +881,7 @@ const materiales =  [
   },
   {
     "id": 110,
-    "categorie": "cercas",
+    "categorie": "cercas-cerchas",
     "name": "Cercha 1.50",
     "description": "Cercha o solera tramo de 1.50 metros",
     "price": 94,
@@ -881,7 +889,7 @@ const materiales =  [
   },
   {
     "id": 111,
-    "categorie": "cercas",
+    "categorie": "cercas-cerchas",
     "name": "Cercha 1.75",
     "description": "Cercha o solera tramo de 1.75 metros",
     "price": 104,
@@ -889,7 +897,7 @@ const materiales =  [
   },
   {
     "id": 112,
-    "categorie": "cercas",
+    "categorie": "cercas-cerchas",
     "name": "Cercha 2",
     "description": "Cercha o solera tramo de 2 metros",
     "price": 125,
@@ -897,7 +905,7 @@ const materiales =  [
   },
   {
     "id": 113,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Abrazadera de tension 3 pulgadas",
     "description": "Abrazadera de tension de 3 pulgadas",
     "price": 7,
@@ -905,7 +913,7 @@ const materiales =  [
   },
   {
     "id": 114,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Abrazadera de tension 2 1/2 pulgadas",
     "description": "Abrazadera de tension de 2 1/2 pulgadas",
     "price": 6,
@@ -913,7 +921,7 @@ const materiales =  [
   },
   {
     "id": 115,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Abrazadera de tension 2 pulgadas",
     "description": "Abrazadera de tension de 2 pulgadas",
     "price": 6,
@@ -921,7 +929,7 @@ const materiales =  [
   },
   {
     "id": 116,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Abrazadera de arranque 2 1/2 pulgadas",
     "description": "Abrazadera de tension de 2 1/2 pulgadas",
     "price": 5,
@@ -929,7 +937,7 @@ const materiales =  [
   },
   {
     "id": 117,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Abrazadera de arranque 2 pulgadas",
     "description": "Abrazadera de tension de 2 pulgadas",
     "price": 5,
@@ -937,7 +945,7 @@ const materiales =  [
   },
   {
     "id": 118,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Tornillo y tuerca",
     "description": "Tornillo y tuerca para abrazaderas",
     "price": 5,
@@ -945,7 +953,7 @@ const materiales =  [
   },
   {
     "id": 119,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Copple barra 1 1/2",
     "description": "Copple para barra superior de 1 1/2",
     "price": 5,
@@ -953,7 +961,7 @@ const materiales =  [
   },
   {
     "id": 120,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Union barra 1 1/2",
     "description": "Union barra para tubo 1 1/2 pulgada",
     "price": 5,
@@ -961,7 +969,7 @@ const materiales =  [
   },
   {
     "id": 121,
-    "categorie": "cercas",
+    "categorie": "cercas-tapon",
     "name": "Tapón simple 1 1/2 pulgadas",
     "description": "Tapón simple 1 1/2 pulgadas",
     "price": 5,
@@ -969,7 +977,7 @@ const materiales =  [
   },
   {
     "id": 122,
-    "categorie": "cercas",
+    "categorie": "cercas-tapon",
     "name": "Tapón simple 2 pulgadas",
     "description": "Tapón simple 2 pulgadas",
     "price": 9,
@@ -977,7 +985,7 @@ const materiales =  [
   },
   {
     "id": 123,
-    "categorie": "cercas",
+    "categorie": "cercas-tapon",
     "name": "Tapón simple 2 1/2 pulgadas",
     "description": "Tapón simple 2 1/2 pulgadas",
     "price": 12,
@@ -985,7 +993,7 @@ const materiales =  [
   },
   {
     "id": 124,
-    "categorie": "cercas",
+    "categorie": "cercas-tapon",
     "name": "Tapón simple 3 pulgadas",
     "description": "Tapón simple 3 pulgadas",
     "price": 16,
@@ -993,7 +1001,7 @@ const materiales =  [
   },
   {
     "id": 125,
-    "categorie": "cercas",
+    "categorie": "cercas-tapon",
     "name": "Tapón con marco 1 1/2 pulgadas",
     "description": "Tapón con marco 1 1/2 pulgadas a 1 1/2",
     "price": 23,
@@ -1001,7 +1009,7 @@ const materiales =  [
   },
   {
     "id": 126,
-    "categorie": "cercas",
+    "categorie": "cercas-tapon",
     "name": "Tapón con marco 2 pulgadas",
     "description": "Tapón con marco 2 pulgadas a 1 1/2",
     "price": 23,
@@ -1009,7 +1017,7 @@ const materiales =  [
   },
   {
     "id": 127,
-    "categorie": "cercas",
+    "categorie": "cercas-tapon",
     "name": "Tapón con marco 2 1/2 pulgadas ",
     "description": "Tapón con marco 2 1/2 pulgadas a 1 1/2",
     "price": 23,
@@ -1017,7 +1025,7 @@ const materiales =  [
   },
   {
     "id": 128,
-    "categorie": "cercas",
+    "categorie": "cercas-tapon",
     "name": "Tapón con marco 3 pulgadas",
     "description": "Tapón con marco 3 pulgadas a 1 1/2",
     "price": 23,
@@ -1025,7 +1033,7 @@ const materiales =  [
   },
   {
     "id": 129,
-    "categorie": "cercas",
+    "categorie": "cercas-espada",
     "name": "Espada Integral 2 X 1 1/2 pulgadas",
     "description": "Espada Integral 2 X 1 1/2 pulgadas",
     "price": 48,
@@ -1033,7 +1041,7 @@ const materiales =  [
   },
   {
     "id": 130,
-    "categorie": "cercas",
+    "categorie": "cercas-espada",
     "name": "Espada Integral 2 X 1 1/2 pulgadas doble",
     "description": "Espada Integral 2 X 1 1/2 pulgadas doble",
     "price": 72,
@@ -1041,7 +1049,7 @@ const materiales =  [
   },
   {
     "id": 131,
-    "categorie": "cercas",
+    "categorie": "cercas-espada",
     "name": "Espada Integral 2 1/2 X 1 1/2 pulgadas",
     "description": "Espada Integral 2 1/2 X 1 1/2 pulgadas",
     "price": 36,
@@ -1049,7 +1057,7 @@ const materiales =  [
   },
   {
     "id": 132,
-    "categorie": "cercas",
+    "categorie": "cercas-espada",
     "name": "Espada Integral 3 X 1 1/2 pulgadas",
     "description": "Espada Integral 3 X 1 1/2 pulgadas",
     "price": 39,
@@ -1057,7 +1065,7 @@ const materiales =  [
   },
   {
     "id": 133,
-    "categorie": "cercas",
+    "categorie": "cercas-bisagra",
     "name": "Bisagra macho 2 pulgadas",
     "description": "Bisagra macho 2 pulgadas",
     "price": 59,
@@ -1065,7 +1073,7 @@ const materiales =  [
   },
   {
     "id": 134,
-    "categorie": "cercas",
+    "categorie": "cercas-bisagra",
     "name": "Bisagra macho 2 1/2 pulgadas",
     "description": "Bisagra macho 2 1/2 pulgadas",
     "price": 71,
@@ -1073,7 +1081,7 @@ const materiales =  [
   },
   {
     "id": 135,
-    "categorie": "cercas",
+    "categorie": "cercas-bisagra",
     "name": "Bisagra macho 3 pulgadas",
     "description": "Bisagra macho 3 pulgadas",
     "price": 76,
@@ -1081,7 +1089,7 @@ const materiales =  [
   },
   {
     "id": 136,
-    "categorie": "cercas",
+    "categorie": "cercas-bisagra",
     "name": "Bisagra hembra 2 pulgadas",
     "description": "Bisagra hembra 2 pulgadas",
     "price": 43,
@@ -1089,7 +1097,7 @@ const materiales =  [
   },
   {
     "id": 137,
-    "categorie": "cercas",
+    "categorie": "cercas-bisagra",
     "name": "Bisagra hembra 2 1/2 pulgadas",
     "description": "Bisagra hembra 2 1/2 pulgadas",
     "price": 43,
@@ -1097,7 +1105,7 @@ const materiales =  [
   },
   {
     "id": 138,
-    "categorie": "cercas",
+    "categorie": "cercas-bisagra",
     "name": "Bisagra hembra 1 1/2 pulgadas",
     "description": "Bisagra hembra 1 1/2 pulgadas",
     "price": 34,
@@ -1105,15 +1113,15 @@ const materiales =  [
   },
   {
     "id": 139,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Riel tipo U",
     "description": "Riel tipo U",
-    "price": 59,
-    "image": "cercas/bisagra-hembra-3.png"
+    "price": 1005,
+    "image": "cercas/riel-u.png"
   },
   {
     "id": 140,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Carrucha",
     "description": "Carrucha",
     "price": 251,
@@ -1121,7 +1129,7 @@ const materiales =  [
   },
   {
     "id": 141,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Rueda doble",
     "description": "Rueda Doble",
     "price": 873,
@@ -1129,7 +1137,7 @@ const materiales =  [
   },
   {
     "id": 142,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Rueda Sencilla",
     "description": "Rueda Sencilla",
     "price": 135,
@@ -1137,7 +1145,7 @@ const materiales =  [
   },
   {
     "id": 143,
-    "categorie": "cercas",
+    "categorie": "cercas-accesorios-malla",
     "name": "Pasador mouser",
     "description": "Pasador mouser",
     "price": 84,
@@ -1145,7 +1153,7 @@ const materiales =  [
   },
   {
     "id": 144,
-    "categorie": "cercas",
+    "categorie": "cercas-cinta",
     "name": "Cinta decorativa o de privacidad verde",
     "description": "Cinta decorativa o de privacidad 20 metros cuadrados color verde",
     "price": 845,
@@ -1153,7 +1161,7 @@ const materiales =  [
   },
   {
     "id": 145,
-    "categorie": "cercas",
+    "categorie": "cercas-cinta",
     "name": "Cinta decorativa o de privacidad verde",
     "description": "Cinta decorativa o de privacidad 6 metros cuadrados color verde",
     "price": 290,
@@ -1161,7 +1169,7 @@ const materiales =  [
   },
   {
     "id": 146,
-    "categorie": "cercas",
+    "categorie": "cercas-cinta",
     "name": "Cinta decorativa o de privacidad verde",
     "description": "Cinta decorativa o de privacidad 3 metros cuadrados color verde",
     "price": 127,
@@ -1169,7 +1177,7 @@ const materiales =  [
   },
   {
     "id": 147,
-    "categorie": "cercas",
+    "categorie": "cercas-cinta",
     "name": "Cinta decorativa o de privacidad verde",
     "description": "Cinta decorativa o de privacidad 6 metros cuadrados color gris",
     "price": 290,
@@ -1177,7 +1185,7 @@ const materiales =  [
   },
   {
     "id": 148,
-    "categorie": "cercas",
+    "categorie": "cercas-cinta",
     "name": "Cinta decorativa o de privacidad verde",
     "description": "Cinta decorativa o de privacidad 3 metros cuadrados color azul",
     "price": 127,
@@ -1942,14 +1950,6 @@ const materiales =  [
     "description": "Guantes de carnaza",
     "price": 38,
     "image": "herramientas/guantes.png"
-  },
-  {
-    "id": 237,
-    "categorie": "herramientas",
-    "name": "Driver para poste",
-    "description": "Driver para poste",
-    "price": 1125,
-    "image": "herramientas/driver.png"
   }
 ]
 
