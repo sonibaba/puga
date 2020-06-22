@@ -43,6 +43,20 @@ const routes = [
     ]
   },
   {
+    path: '/mangueras-codos-naranja',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/mangueras/codos-naranja.vue') }
+    ]
+  },
+  {
+    path: '/mangueras-conectores',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/mangueras/coples.vue') }
+    ]
+  },
+  {
     path: '/magueras_bicapa',
     component: () => import('layouts/MainLayout.vue'),
     children: [
@@ -295,6 +309,55 @@ const routes = [
     ]
   },
   {
+    path: '/laminas-galvanizada',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/laminas/galvanizada.vue') }
+    ]
+  },
+  {
+    path: '/caballetes',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/laminas/caballetes.vue') }
+    ]
+  },
+  {
+    path: '/lamina-galvateja',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/laminas/galvateja.vue') }
+    ]
+  },
+  {
+    path: '/lamina-pijas',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/laminas/pija.vue') }
+    ]
+  },
+  {
+    path: '/lamina-polin',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/laminas/polin.vue') }
+    ]
+  },
+  {
+    path: '/lamina-ptr',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/laminas/ptr.vue') }
+    ]
+  },
+  {
+    path: '/lamina-negro',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/laminas/negro.vue') }
+    ]
+  },
+  {
     path: '/post_laminas',
     component: () => import('layouts/MainLayout.vue'),
     children: [
@@ -306,6 +369,111 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/post/post_herramientas.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-segueta',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/segueta.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-barreta',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/barreta.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-carretillas',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/carretillas.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-excavacion',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/excavacion.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-cincel',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/cincel.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-cuchara',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/cuchara.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-hacha',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/hacha.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-marro',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/marro.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-azadon',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/azadon.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-taquetes',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/taquetes.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-brocas',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/brocas.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-armellas',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/armellas.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-omega',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/omega.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-caja',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/caja.vue') }
+    ]
+  },
+  {
+    path: '/herramientas-guantes',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/post/herramienta/guantes.vue') }
     ]
   },
   {

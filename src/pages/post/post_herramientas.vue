@@ -4,37 +4,203 @@
       <div class="row q-col-gutter-md">
 
         <div class="col-12 col-sm-4 col-md-3 col-lg-3">
-          <lateral  categorie="Acero Negro"/>
+          <lateral  categorie="Mangueras"/>
         </div>
         <div class="col-12 col-sm-8 col-md-9 col-lg-9">
           <div class="row q-col-gutter-md">
-              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center" v-for="(item,idex) in posts" :key="idex">
-                <q-card flat bordered class="my-card">
-
-                <q-img height="250" :src="require('../../assets/categories/'+item.image)" >
-                </q-img>
-                <q-separator/>
-                <q-card-section>
-                    <div class="text-subtitle2 text-center">{{item.description}}</div>
-                    <div class="text-h6 text-center text-orange-14">${{item.price}} MXN </div>
-                    <div class="text-subtitle2 text-secondary">{{ item.title }}</div>
-                    <!-- <div class="text-subtitle2">{{item.description}}</div> -->
-                </q-card-section>
-                
-                <!-- <q-img  width="320px" height="250px" :src="require('../../assets/categories/'+item.image)" >
-                  <div class="absolute-bottom text-subtitle2 text-center">
-                    <b>{{item.name}}</b>
-                  </div>
-                </q-img>
-                <q-separator/>
-                <q-card-section>
-                    <div class="text-subtitle2 text-center">{{item.description}}</div>
-                    <div class="text-h6 text-center text-orange-14">${{item.price}} MXN </div>
-                    <div class="text-subtitle2 text-secondary">{{ item.title }}</div>
-                </q-card-section> -->
-                
-                <q-btn :to="'/product/'+item.id" color="orange-14" class="full-width"  label="Ver"
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/segueta1.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                      Segueta
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-segueta" color="orange-14" class="full-width"  label="Ver"
                     icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/barreta.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                      Barreta
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-barreta" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/carretrilla-50.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                      Carretillas
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-carretillas" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/cavador-madera.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                    Excavacion
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-excavacion" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/cincel-1-2-10.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                    Cincel y cuña
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-cincel" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/cuchara.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                    Cuchara
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-cuchara" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/hacha.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                    Hacha
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-hacha" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/marro-2.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                    Marro y martillo
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-marro" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/azadon.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                    Azadon
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-azadon" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/taquete-plastico-1-4.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                    Taquetes
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-taquetes" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/broca-1-2-larga.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                    Brocas
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-brocas" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/aramella-cerrada-25.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                    Armellas
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-armellas" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/omega-3.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                    Abrazadera omega
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-omega" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/caja-3.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                    Cajas y chalupas
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-caja" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/guantes.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                    Guantes
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/herramientas-guantes" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
                 </q-card>
               </div>
           </div> <br><br>
@@ -42,7 +208,7 @@
       <p>
         <img src="~assets/sad.svg" style="width:30vw;max-width:150px;">
       </p>
-      <p class="text-faded">Lo sentimos, no hay productos de HERRAMIENTAS</p>
+      <p class="text-faded">Lo sentimos, no hay productos de mangueras</p>
       <q-btn color="secondary" style="width:200px;" @click="$router.push('/')">Regresar</q-btn>
     </div>
         </div>
@@ -73,12 +239,10 @@ export default {
   created(){
       /*this.posts = products*/
       for (var i = 0; i < products.length; i++) {
-             if (products[i].categorie == 'herramientas') {
+             if (products[i].categorie == 'mangueras') {
               this.posts.push(products[i])
              } 
            }
-      console.log(this.posts)
   }
 }
 </script>
-

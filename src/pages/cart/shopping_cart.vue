@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="q-px-md q-py-lg">
-      <div class="row q-col-gutter-md justify-center">
+    <div class="q-px-none q-py-lg">
+      <div class="row q-col-lg justify-center">
         <div  class="col-12 col-sm-8 col-md-7 col-lg-7 ">
           <q-card flat bordered class="my-card bg-grey-1">
             <q-card-section class="bg-teal text-white">
@@ -52,11 +52,12 @@
                 <img :src="require('../../assets/categories/'+pro.image)" style="height: 120px; max-width: 350px" />
               </div>
               <div class="col-12 col-sm-3 col-md-3 col-lg-3">
-                <div class="text-h5">{{ pro.name }}</div>
-                <div class="text-h6 text-green-14">Precio unitario: ${{pro.price}} MXN</div>
+                <div class="text-subtitle1">{{ pro.name }}</div>
+                <div class="text-subtitle1 text-green-14">Precio: ${{pro.price}}</div>
+                <div class="text-subtitle1 text-blue-14">Domicilio: ${{pro.price_dom}}</div>
               </div>
               <div class="col-12 col-sm-3 col-md-3 col-lg-3">
-                <select :id="index" @change="watchSelected($event,pro.price,index)">
+                <select :id="index" @change="watchSelected($event,pro.price,pro.price_dom,index)">
                     <option v-for="i in 1000" :value="i">{{i}}</option>
                   </select>
               </div>
@@ -78,7 +79,8 @@
             <q-card-section class="bg-teal text-white">
               <div class="row items-center no-wrap">
                 <div class="col">
-                  <div class="text-h4 text-center"><b>Total: ${{total.toFixed(2)}}</b> MXN</div>
+                  <div class="text-h5 text-center"><b>Total: ${{total.toFixed(2)}}</b> MXN</div>
+                  <div class="text-subtitle1 text-center"><b>Total a domicilio: ${{totalDom.toFixed(2)}}</b> MXN</div>
                 </div>
               </div>
             </q-card-section>
@@ -118,29 +120,17 @@
       return {
         data: [],
         products: [],
-        price: '',
         arrayQuantity: [],
+        arrayQuantityDom: [],
         counter: 0,
         totalPrice: [],
+        totalPriceDom: [],
         total: 0,
-        loading: false,
-        totalProduct: 0,
-        
+        totalDom: 0,
+        loading: false
       }
     },
     methods: {
-      download(){
-        // var body = [
-        //     [this.products[0].name, this.arrayQuantity[0], this.products[0].price, this.totalPrice[0]],
-        //     [this.products[1].name, this.arrayQuantity[1], this.products[1].price, this.totalPrice[1]]
-        //     // ...
-        //   ]
-        // console.log(body);
-        
-        
-        
-        
-      },
       css(){
         var element = document.getElementById('element-to-print');
         var imgData = 
@@ -160,20 +150,20 @@
 
         var bodyarray = []
         for (let i = 0; i < this.products.length; i++) {
-          bodyarray.push([this.products[i].name, this.arrayQuantity[i], this.products[i].price, this.totalPrice[i]])
+          bodyarray.push([this.products[i].name, this.arrayQuantity[i], this.products[i].price,this.products[i].price_dom, this.totalPrice[i],this.totalPriceDom[i]])
         }      
 
         doc.autoTable({
           cursor: { x: 110, y: 50},
-          head: [['Producto', 'cantidad', 'precio unitario', 'total' ]],
+          head: [['Producto', 'cantidad', 'precio','precio dom' , 'total','total dom' ]],
           body: bodyarray,
           startY: 55
         })
 
         doc.autoTable({
-          head: [['Total' ]],
+          head: [['Total', 'Total domicilio' ]],
           body: [
-            [this.total.toFixed(2)]
+            [this.total.toFixed(2),this.totalDom.toFixed(2)]
             // ...
           ],
           columnStyles: {
@@ -184,19 +174,28 @@
         })  
         doc.save("cotizacion.pdf");
       },
-      watchSelected(event, price, index) {
+      watchSelected(event, price,price_dom, index) {
         if (this.totalPrice.length == this.data.length) {
           var quantity = event.target.options[event.target.selectedIndex].value;
           var priceTotal = price * quantity;
           this.totalPrice.splice(index, 1, priceTotal)
           this.arrayQuantity.splice(index, 1, parseInt(quantity))
+          
+          var priceTotalDom = price_dom * quantity;
+          this.totalPriceDom.splice(index, 1, priceTotalDom)
+          this.arrayQuantityDom.splice(index, 1, parseInt(quantity))
         } else {
           var quantity = event.target.options[event.target.selectedIndex].value;
           var priceTotal = price * quantity;
           this.arrayQuantity.splice(index, 1, parseInt(quantity))
           this.totalPrice.splice(index, 1, priceTotal)
+
+          var priceTotalDom = price_dom * quantity;
+          this.arrayQuantity.splice(index, 1, parseInt(quantity))
+          this.totalPrice.splice(index, 1, priceTotalDom)
         }
         this.getPriceTotal()
+        this.getPriceTotalDom()
       },
       getPriceTotal() {
         var suma = 0
@@ -211,6 +210,14 @@
         this.total = suma
         // console.log(this.products);
       },
+      getPriceTotalDom() {
+        var suma = 0
+        var sumaPro = 0
+        for (let i = 0; i < this.totalPriceDom.length; i++) {
+          suma = suma + parseFloat(this.totalPriceDom[i])
+        }
+        this.totalDom = suma
+      },
       async getShopping() {
         // 1 block y 5 cal
         
@@ -222,34 +229,14 @@
           }
         }
         this.getPrice()
-        
-        
-        // console.log(this.products);
-        // if (this.data != null) {
-        //   try {
-        //     var resp = await api.post('/getShopping', this.data,{
-        //       headers: {
-        //         Authorization: `Bearer ${sessionStorage.getItem("token")}`
-        //       }
-        //     })
-        //     if (resp.data[0] == null) {
-        //       localStorage.removeItem('shopping');
-        //       location.reload();
-        //     } else {
-        //       this.products = resp.data
-        //       this.getPrice()
-        //     }
-        //     this.getPriceTotal()
-        //   } catch (error) {
-        //     console.log(error)
-        //   }
-        // }
       },
       getPrice() {
         for (let i = 0; i < this.data.length; i++) {
           this.totalPrice.push(parseFloat(this.products[i].price))
+          this.totalPriceDom.push(parseFloat(this.products[i].price_dom))
         }
         this.getPriceTotal()
+        this.getPriceTotalDom()
       },
       clearProduct(id, index) {
         var newArray = this.data.filter(function(i) {
@@ -265,16 +252,6 @@
         this.getShopping()
         this.getPriceTotal()
         location.reload();
-      },
-      async buyProduct() {
-        var array = []
-        for (let i = 0; i < this.data.length; i++) {
-          array.push({
-            "idPro": this.data[i],
-            "quantity": this.arrayQuantity[i]
-          })
-        }
-        localStorage.setItem('payment', JSON.stringify(array));
       }
     },
     computed: {

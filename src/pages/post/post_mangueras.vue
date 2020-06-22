@@ -34,6 +34,32 @@
                   </q-card-actions>
                 </q-card>
               </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/codo-1-2.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                      Codos bicapa
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/mangueras-codos-naranja" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/herramientas/conector-3-4.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                      Coples y conectores
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/mangueras-conectores" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
           </div> <br><br>
           <div class="text-center" v-if="posts.length === 0">
       <p>
