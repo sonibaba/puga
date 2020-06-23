@@ -14,7 +14,7 @@ const materiales =  [
     "name": "Block 15x20x40",
     "description": "Block 15x20x40",
     "price": 10,
-    "price_dom": 10,
+    "price_dom": 10.5,
     "image": "materiales/block_2.png"
   },
   {
@@ -41,7 +41,7 @@ const materiales =  [
     "name": "grava",
     "description": "grava por metro cubico",
     "price": 350,
-    "price_dom": 350,
+    "price_dom": 400,
     "image": "materiales/grava.png"
   },
   {
@@ -50,7 +50,7 @@ const materiales =  [
     "name": "Cemento Cruz Azul 50kg",
     "description": "Cemento gris marca cruz azul",
     "price": 149,
-    "price_dom": 149,
+    "price_dom": 155,
     "image": "materiales/cruzazul.png"
   },
   {
@@ -101,6 +101,15 @@ const materiales =  [
   {
     "id": 12,
     "categorie": "materiales",
+    "name": "Estuco",
+    "description": "Estuco blanco 40 kg",
+    "price": 122,
+    "price_dom": 122,
+    "image": "materiales/estuco.png"
+  },
+  {
+    "id": 13,
+    "categorie": "materiales",
     "name": "Imprecem ",
     "description": "Imprecem marca Monterrey",
     "price": 166,
@@ -108,7 +117,7 @@ const materiales =  [
     "image": "materiales/impercem.png"
   },
   {
-    "id": 13,
+    "id": 14,
     "categorie": "materiales",
     "name": "Cemento Monterrey 50 kg.",
     "description": "Cemento gris marca Monterrey",
@@ -117,7 +126,7 @@ const materiales =  [
     "image": "materiales/monterrey.png"
   },
   {
-    "id": 14,
+    "id": 15,
     "categorie": "materiales",
     "name": "Multiplast",
     "description": "Multiplast marca Cemex 40kg",
@@ -126,16 +135,16 @@ const materiales =  [
     "image": "materiales/multiplast.png"
   },
   {
-    "id": 15,
+    "id": 16,
     "categorie": "mangueras",
-    "name": "Manguera bicapa",
-    "description": "rollo de manguera bicapa ECO",
+    "name": "Manguera bicapa 1/2 eco",
+    "description": "rollo de manguera bicapa 1/2 ECO",
     "price": 219,
     "price_dom": 219,
     "image": "mangueras/bicapa.png"
   },
   {
-    "id": 16,
+    "id": 17,
     "categorie": "mangueras",
     "name": "Rollo manguera bicapa 1/2 SEMI",
     "description": "Rollo manguera bicapa 1/2 SEMI",
@@ -144,7 +153,7 @@ const materiales =  [
     "image": "mangueras/manguera-semi.png"
   },
   {
-    "id": 17,
+    "id": 18,
     "categorie": "mangueras",
     "name": "Rollo manguera bicapa 1/2 REF",
     "description": "Rollo manguera bicapa 1/2 REF",
@@ -153,7 +162,7 @@ const materiales =  [
     "image": "mangueras/manguera-ref.png"
   },
   {
-    "id": 18,
+    "id": 19,
     "categorie": "mangueras",
     "name": "Bicapa 3/4",
     "description": "Rollo de maguera bicapa 3/4",
@@ -162,16 +171,16 @@ const materiales =  [
     "image": "mangueras/bicapa-3-4.png"
   },
   {
-    "id": 19,
+    "id": 20,
     "categorie": "mangueras",
     "name": "Bicapa 1 pulgada",
     "description": "Rollo de maguera bicapa de 1 pulgada",
-    "price": 684,
-    "price_dom": 684,
+    "price": 694,
+    "price_dom": 694,
     "image": "mangueras/bicapa-1.png"
   },
   {
-    "id": 20,
+    "id": 21,
     "categorie": "mangueras",
     "name": "Bicapa 1 1/4 50 metros",
     "description": "Rollo de maguera Bicapa 1 1/4 50 metros",
@@ -180,7 +189,7 @@ const materiales =  [
     "image": "mangueras/bicapa-1-1-4-50mts.png"
   },
   {
-    "id": 21,
+    "id": 22,
     "categorie": "mangueras",
     "name": "Bicapa 1 1/4 100 metros",
     "description": "Rollo de maguera Bicapa 1 1/4 100 metros",
@@ -189,7 +198,7 @@ const materiales =  [
     "image": "mangueras/bicapa-1-1-4-100mts.png"
   },
   {
-    "id": 22,
+    "id": 23,
     "categorie": "mangueras",
     "name": "Bicapa 1 1/2 50 metros",
     "description": "Rollo de maguera Bicapa 1 1/2 50 metros",
@@ -198,7 +207,7 @@ const materiales =  [
     "image": "mangueras/bicapa-1-1-2-50mts.png"
   },
   {
-    "id": 23,
+    "id": 24,
     "categorie": "mangueras",
     "name": "Bicapa 1 1/2 100 metros",
     "description": "Rollo de maguera Bicapa 1 1/2 100 metros",
@@ -207,7 +216,7 @@ const materiales =  [
     "image": "mangueras/bicapa-1-1-2-100mts.png"
   },
   {
-    "id": 24,
+    "id": 25,
     "categorie": "mangueras",
     "name": "Bicapa de 2 pulgadas 50 metros",
     "description": "Rollo de maguera Bicapa 2 pulgadas 50 metros",
@@ -216,7 +225,7 @@ const materiales =  [
     "image": "mangueras/bicapa-2-50mts.png"
   },
   {
-    "id": 25,
+    "id": 26,
     "categorie": "mangueras",
     "name": "Bicapa de 2 pulgadas 100 metros",
     "description": "Rollo de maguera Bicapa 2 pulgadas 100 metros",
@@ -225,7 +234,7 @@ const materiales =  [
     "image": "mangueras/bicapa-2-100mts.png"
   },
   {
-    "id": 26,
+    "id": 27,
     "categorie": "mangueras-agua",
     "name": "Manguera para agua 1/2 c-40",
     "description": "Rollo de manguera para agua 1/2 c-40",
@@ -301,8 +310,8 @@ const materiales =  [
     "categorie": "mangueras-agua",
     "name": "Manguera para agua 2 pulgadas 100 metros",
     "description": "Rollo de manguera para agua de 2 pulgadas 100 metros",
-    "price": 1169,
-    "price_dom": 1169,
+    "price": 2375,
+    "price_dom": 2375,
     "image": "mangueras/agua-2-100mts.png"
   },
   {
@@ -319,8 +328,8 @@ const materiales =  [
     "categorie": "acero-varilla",
     "name": " Varilla 1/2",
     "description": "Varilla corrugada de 1/2",
-    "price": 113,
-    "price_dom": 113,
+    "price": 201,
+    "price_dom": 201,
     "image": "acero/varilla-1-2.png"
   },
   {
@@ -328,8 +337,8 @@ const materiales =  [
     "categorie": "acero-varilla",
     "name": " Varilla 5/8",
     "description": "Varilla corrugada de 5/8",
-    "price": 113,
-    "price_dom": 113,
+    "price": 319,
+    "price_dom": 319,
     "image": "acero/varilla-5-8.png"
   },
   {
@@ -337,8 +346,8 @@ const materiales =  [
     "categorie": "acero-varilla",
     "name": " Varilla 3/4",
     "description": "Varilla corrugada de 3/4",
-    "price": 113,
-    "price_dom": 113,
+    "price": 457,
+    "price_dom": 457,
     "image": "acero/varilla-3-4.png"
   },
   {
@@ -346,8 +355,8 @@ const materiales =  [
     "categorie": "acero-varilla",
     "name": " Varilla 1",
     "description": "Varilla corrugada de una pulgada",
-    "price": 113,
-    "price_dom": 113,
+    "price": 786,
+    "price_dom": 786,
     "image": "acero/varilla-1.png"
   },
   {
@@ -407,7 +416,7 @@ const materiales =  [
   {
     "id": 46,
     "categorie": "acero-losa",
-    "name": "Malla losa 6 x6 - 66",
+    "name": "Malla losa 6 x6 - 66 rollo",
     "description": "Malla para losa por rollo",
     "price": 3400,
     "price_dom": 3400,
@@ -416,7 +425,7 @@ const materiales =  [
   {
     "id": 47,
     "categorie": "acero-losa",
-    "name": "Malla losa 6 x6 - 66",
+    "name": "Malla losa 6 x6 - 66 metro cuadrado",
     "description": "Malla para losa por metro cuadrado",
     "price": 40,
     "price_dom": 40,
@@ -425,8 +434,8 @@ const materiales =  [
   {
     "id": 48,
     "categorie": "acero-piso",
-    "name": "Malla piso 10 x10 - 66",
-    "description": "Malla para losa por rollo",
+    "name": "Malla piso 10 x10 - 66 rollo",
+    "description": "Malla para piso por rollo",
     "price": 1800,
     "price_dom": 1800,
     "image": "acero/mallapiso-rollo.png"
@@ -444,7 +453,7 @@ const materiales =  [
     "id": 65,
     "categorie": "acero-plafonera",
     "name": "Plafonera 500 x 22",
-    "description": "Rollo de malla plafonera 500 x 20",
+    "description": "Rollo de malla plafonera 500 x 22",
     "price": 516,
     "price_dom": 516,
     "image": "agropecuarios/plafonera.png"
@@ -452,8 +461,8 @@ const materiales =  [
   {
     "id": 50,
     "categorie": "clavos-madera",
-    "name": "Clavo para madera dos pulgadas",
-    "description": "Kilogramo de clavo para madera de dos pulgadas",
+    "name": "Clavo para madera 2 pulgadas",
+    "description": "Kilogramo de clavo para madera de 2 pulgadas",
     "price": 27,
     "price_dom": 27,
     "image": "clavos/clavo-2.png"
@@ -470,8 +479,8 @@ const materiales =  [
   {
     "id": 52,
     "categorie": "clavos-madera",
-    "name": "Clavo para madera tres pulgadas",
-    "description": "Kilogramo de clavo para madera de tres pulgadas",
+    "name": "Clavo para madera 3 pulgadas",
+    "description": "Kilogramo de clavo para madera de 3 pulgadas",
     "price": 27,
     "price_dom": 27,
     "image": "clavos/clavo-3.png"
@@ -479,8 +488,8 @@ const materiales =  [
   {
     "id": 53,
     "categorie": "clavos-madera",
-    "name": "Clavo para madera cuatro pulgadas",
-    "description": "Kilogramo de clavo para madera de cuatro pulgadas",
+    "name": "Clavo para madera 4 pulgadas",
+    "description": "Kilogramo de clavo para madera de 4 pulgadas",
     "price": 27,
     "price_dom": 27,
     "image": "clavos/clavo-4.png"
@@ -488,8 +497,8 @@ const materiales =  [
   {
     "id": 54,
     "categorie": "clavos-madera",
-    "name": "Clavo reforzado cuatro pulgadas",
-    "description": "Kilogramo de clavo reforzado de cuatro pulgadas",
+    "name": "Clavo reforzado 4 pulgadas",
+    "description": "Kilogramo de clavo reforzado de 4 pulgadas",
     "price": 73,
     "price_dom": 73,
     "image": "clavos/clavo-reforzado.png"
@@ -497,8 +506,8 @@ const materiales =  [
   {
     "id": 55,
     "categorie": "clavos-concreto",
-    "name": "Clavo para concreto dos pulgadas",
-    "description": "Kilogramo de clavo de acero medida dos pulgadas",
+    "name": "Clavo para concreto 2 pulgadas",
+    "description": "Kilogramo de clavo de acero medida 2 pulgadas",
     "price": 41,
     "price_dom": 41,
     "image": "clavos/clavo-concreto-2.png"
@@ -515,8 +524,8 @@ const materiales =  [
   {
     "id": 57,
     "categorie": "clavos-concreto",
-    "name": "Clavo para concreto tres pulgadas",
-    "description": "Kilogramo de clavo de acero medida tres pulgadas",
+    "name": "Clavo para concreto 3 pulgadas",
+    "description": "Kilogramo de clavo de acero medida 3 pulgadas",
     "price": 41,
     "price_dom": 41,
     "image": "clavos/clavo-concreto-3.png"
@@ -526,15 +535,15 @@ const materiales =  [
     "categorie": "clavos-paraguas",
     "name": "Clavo paraaguas",
     "description": "Kilogramo de clavo paraguas de 2 1/2",
-    "price": 41,
-    "price_dom": 41,
+    "price": 68,
+    "price_dom": 68,
     "image": "clavos/clavo-paraguas.png"
   },
   {
     "id": 59,
     "categorie": "agropecuarios-borreguera",
-    "name": "Borreguera 1 x 50",
-    "description": "Rollo de malla borreguera 1 metro de alto x 20 metros",
+    "name": "Borreguera 1 x 50 metros",
+    "description": "Rollo de malla borreguera 1 metro de alto x 50 metros",
     "price": 714,
     "price_dom": 714,
     "image": "agropecuarios/borreguera-1.png"
@@ -543,7 +552,7 @@ const materiales =  [
     "id": 60,
     "categorie": "agropecuarios-borreguera",
     "name": "Borreguera 1.20 x 50",
-    "description": "Rollo de malla borreguera 1.20 metros de alto x 20 metros",
+    "description": "Rollo de malla borreguera 1.20 metros de alto x 50 metros",
     "price": 863,
     "price_dom": 863,
     "image": "agropecuarios/borreguera-1-20.png"
@@ -551,8 +560,8 @@ const materiales =  [
   {
     "id": 61,
     "categorie": "agropecuarios-borreguera",
-    "name": "Borreguera 1.75 x 50",
-    "description": "Rollo de malla borreguera 1.75 metros de alto x 20 metros",
+    "name": "Borreguera 1.67 x 50",
+    "description": "Rollo de malla borreguera 1.75 metros de alto x 50 metros",
     "price": 1105,
     "price_dom": 1105,
     "image": "agropecuarios/borreguera-1-75.png"
@@ -561,7 +570,7 @@ const materiales =  [
     "id": 62,
     "categorie": "agropecuarios-gallinera",
     "name": "Gallinera 1.75 x 45",
-    "description": "Rollo de malla gallinera 1.75 metros de alto x 20 metros",
+    "description": "Rollo de malla gallinera 1.75 metros de alto x 45",
     "price": 909,
     "price_dom": 909,
     "image": "agropecuarios/gallinera-1-75.png"
@@ -570,7 +579,7 @@ const materiales =  [
     "id": 63,
     "categorie": "agropecuarios-gallinera",
     "name": "Gallinera 1.50 x 45",
-    "description": "Rollo de malla gallinera 1.50 metros de alto x 20 metros",
+    "description": "Rollo de malla gallinera 1.50 metros de alto x 45",
     "price": 776,
     "price_dom": 776,
     "image": "agropecuarios/gallinera-1-50.png"
@@ -579,7 +588,7 @@ const materiales =  [
     "id": 64,
     "categorie": "agropecuarios-gallinera",
     "name": "Pollera 1.00 x 45",
-    "description": "Rollo de malla gallinera 1 metro de alto x 20 metros",
+    "description": "Rollo de malla pollera 1 metro de alto x 45",
     "price": 793,
     "price_dom": 793,
     "image": "agropecuarios/pollera-1.png"
@@ -659,7 +668,7 @@ const materiales =  [
   {
     "id": 74,
     "categorie": "agropecuarios-puas",
-    "name": "Alambre de púas para ganado",
+    "name": "Alambre de púas 351 metros calibre 12.5",
     "description": "Rollo de alambre de puas 351 metros",
     "price": 852,
     "price_dom": 852,
@@ -668,7 +677,7 @@ const materiales =  [
   {
     "id": 75,
     "categorie": "agropecuarios-puas",
-    "name": "Alambre de púas para ganado",
+    "name": "Alambre de púas 310 metros calibre 12.5",
     "description": "Rollo de alambre de puas 310 metros",
     "price": 752,
     "price_dom": 752,
@@ -677,8 +686,8 @@ const materiales =  [
   {
     "id": 76,
     "categorie": "agropecuarios-puas",
-    "name": "Alambre de púas vaquero",
-    "description": "Rollo de alambre vaquero de puas 250 metros",
+    "name": "Alambre de púas vaquero 250 metros calibre 15.5",
+    "description": "Rollo de alambre vaquero de puas 250 metros calibre 15.5",
     "price": 442,
     "price_dom": 442,
     "image": "agropecuarios/puas-250.png"
@@ -686,8 +695,8 @@ const materiales =  [
   {
     "id": 77,
     "categorie": "agropecuarios-puas",
-    "name": "Alambre de púas san",
-    "description": "Rollo de alambre san de puas 360 metros",
+    "name": "Alambre de púas san 360 metros calibre 15.5",
+    "description": "Rollo de alambre san de puas 360 metros calibre 15.5",
     "price": 540,
     "price_dom": 540,
     "image": "agropecuarios/puas-360.png"
@@ -837,6 +846,33 @@ const materiales =  [
     "image": "cercas/ciclonica-pvc-2.png"
   },
   {
+    "id": 392,
+    "categorie": "cercas-alambre",
+    "name": "Alambre galvanizado cal 12.5",
+    "description": "kilo de alambre galvanizado cal 12.5",
+    "price": 41,
+    "price_dom": 41,
+    "image": "cercas/alambre-12.png"
+  },
+  {
+    "id": 393,
+    "categorie": "cercas-alambre",
+    "name": "Alambre galvanizado cal 14.5",
+    "description": "kilo de alambre galvanizado cal 14.5",
+    "price": 43,
+    "price_dom": 43,
+    "image": "cercas/alambre-14.png"
+  },
+  {
+    "id": 394,
+    "categorie": "cercas-alambre",
+    "name": "Alambre galvanizado cal 16",
+    "description": "kilo de alambre galvanizado cal 16",
+    "price": 45,
+    "price_dom": 45,
+    "image": "cercas/alambre-16.png"
+  },
+  {
     "id": 93,
     "categorie": "cercas",
     "name": "Cadena 1/4",
@@ -949,8 +985,8 @@ const materiales =  [
     "categorie": "cercas-accesorios",
     "name": "Base para poste",
     "description": "Base para poste de 2 1/4 x 2 1/4 de pulgada",
-    "price": 186,
-    "price_dom": 186,
+    "price": 189,
+    "price_dom": 189,
     "image": "cercas/base.png"
   },
   {
@@ -976,8 +1012,8 @@ const materiales =  [
     "categorie": "cercas-tubo",
     "name": "Tubo galvanizado 2 pulgadas",
     "description": "Tubo galvanizado 2 pulgadas x 6 metros de largo",
-    "price": 477,
-    "price_dom": 477,
+    "price": 271,
+    "price_dom": 271,
     "image": "cercas/tubo-2.png"
   },
   {
@@ -985,8 +1021,8 @@ const materiales =  [
     "categorie": "cercas-tubo",
     "name": "Tubo galvanizado 1 1/2 pulgadas",
     "description": "Tubo galvanizado 1 1/2 pulgadas x 6 metros de largo",
-    "price": 442,
-    "price_dom": 442,
+    "price": 214,
+    "price_dom": 214,
     "image": "cercas/tubo-1-1-2.png"
   },
   {
@@ -1057,8 +1093,8 @@ const materiales =  [
     "categorie": "cercas-accesorios-malla",
     "name": "Abrazadera de arranque 2 pulgadas",
     "description": "Abrazadera de tension de 2 pulgadas",
-    "price": 5,
-    "price_dom": 5,
+    "price": 4,
+    "price_dom": 4,
     "image": "cercas/abrazadera-2.png"
   },
   {
@@ -1066,8 +1102,8 @@ const materiales =  [
     "categorie": "cercas-accesorios-malla",
     "name": "Tornillo y tuerca",
     "description": "Tornillo y tuerca para abrazaderas",
-    "price": 5,
-    "price_dom": 5,
+    "price": 4,
+    "price_dom": 4,
     "image": "cercas/tornillo-tuerca.png"
   },
   {
@@ -1075,8 +1111,8 @@ const materiales =  [
     "categorie": "cercas-accesorios-malla",
     "name": "Copple barra 1 1/2",
     "description": "Copple para barra superior de 1 1/2",
-    "price": 5,
-    "price_dom": 5,
+    "price": 6,
+    "price_dom": 6,
     "image": "cercas/copple-1-1-2.png"
   },
   {
@@ -1084,8 +1120,8 @@ const materiales =  [
     "categorie": "cercas-accesorios-malla",
     "name": "Union barra 1 1/2",
     "description": "Union barra para tubo 1 1/2 pulgada",
-    "price": 5,
-    "price_dom": 5,
+    "price": 21,
+    "price_dom": 21,
     "image": "cercas/union-barra.png"
   },
   {
@@ -1287,6 +1323,15 @@ const materiales =  [
     "image": "cercas/rueda-sencilla.png"
   },
   {
+    "id": 1142,
+    "categorie": "cercas-accesorios-malla",
+    "name": "Porta riel",
+    "description": "Porta riel",
+    "price": 56,
+    "price_dom": 56,
+    "image": "cercas/porta-riel.png"
+  },
+  {
     "id": 143,
     "categorie": "cercas-accesorios-malla",
     "name": "Pasador mouser",
@@ -1326,7 +1371,7 @@ const materiales =  [
     "id": 147,
     "categorie": "cercas-cinta",
     "name": "Cinta decorativa o de privacidad verde",
-    "description": "Cinta decorativa o de privacidad 6 metros cuadrados color gris",
+    "description": "Cinta decorativa o de privacidad 3 metros cuadrados color gris",
     "price": 290,
     "price_dom": 290,
     "image": "cercas/decorativa-gris-6.png"
@@ -1335,7 +1380,7 @@ const materiales =  [
     "id": 148,
     "categorie": "cercas-cinta",
     "name": "Cinta decorativa o de privacidad verde",
-    "description": "Cinta decorativa o de privacidad 3 metros cuadrados color azul",
+    "description": "Cinta decorativa o de privacidad 6 metros cuadrados color azul",
     "price": 127,
     "price_dom": 127,
     "image": "cercas/decorativa-azul-3.png"
@@ -1552,8 +1597,8 @@ const materiales =  [
     "categorie": "herramientas-carretilla",
     "name": "Carretilla mediana ",
     "description": "Carretilla grande 70 litros, color rojo",
-    "price": 862,
-    "price_dom": 862,
+    "price": 1045,
+    "price_dom": 1045,
     "image": "herramientas/carretrilla-70.png"
   },
   {
@@ -1561,8 +1606,8 @@ const materiales =  [
     "categorie": "herramientas-carretilla",
     "name": "Carretilla mediana ",
     "description": "Carretilla mediana 65 litros",
-    "price": 862,
-    "price_dom": 862,
+    "price": 945,
+    "price_dom": 945,
     "image": "herramientas/carretrilla-65.png"
   },
   {
@@ -1615,8 +1660,8 @@ const materiales =  [
     "categorie": "herramientas-cincel",
     "name": "Cincel 3/4 x 10 pulgadas de largo",
     "description": "Cincel 3/4 x 10 pulgadas de largo",
-    "price": 23,
-    "price_dom": 23,
+    "price": 42,
+    "price_dom": 42,
     "image": "herramientas/cincel-3-4-10.png"
   },
   {
@@ -1642,8 +1687,8 @@ const materiales =  [
     "categorie": "herramientas-cincel",
     "name": "Cuña 7/8 de pulgada por 36 cm de largo",
     "description": "Cuña 7/8 de pulgada por 36 cm de largo",
-    "price": 34,
-    "price_dom": 34,
+    "price": 54,
+    "price_dom": 54,
     "image": "herramientas/cuña-7-8.png"
   },
   {
@@ -1651,8 +1696,8 @@ const materiales =  [
     "categorie": "herramientas-cincel",
     "name": "Cuña 1 de pulgada por 40 cm de largo",
     "description": "Cuña 1 de pulgada por 40 cm de largo",
-    "price": 34,
-    "price_dom": 34,
+    "price": 78,
+    "price_dom": 78,
     "image": "herramientas/cuña-1.png"
   },
   {
@@ -1660,8 +1705,8 @@ const materiales =  [
     "categorie": "herramientas-hacha",
     "name": "Hacha labor , mango de madera ",
     "description": "Hacha labor , mango de madera ",
-    "price": 34,
-    "price_dom": 34,
+    "price": 232,
+    "price_dom": 232,
     "image": "herramientas/hacha.png"
   },
   {
@@ -1768,8 +1813,8 @@ const materiales =  [
     "categorie": "mangueras-conectores",
     "name": "Copple plastico 1",
     "description": "Copple plastico 1",
-    "price": 4,
-    "price_dom": 4,
+    "price": 8,
+    "price_dom": 8,
     "image": "herramientas/Copple-11.png"
   },
   {

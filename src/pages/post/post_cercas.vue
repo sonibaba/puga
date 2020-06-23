@@ -7,6 +7,7 @@
           <lateral  categorie="Cercas"/>
         </div>
         <div class="col-12 col-sm-8 col-md-9 col-lg-9">
+          <q-btn label="Instalacion de Cercos de Malla Ciclónica" color="orange-14" @click="icon = true" /> <br> <br>
           <div class="row q-col-gutter-md">
               <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
                 <q-card  class="my-card">
@@ -164,6 +165,19 @@
                   </q-card-actions>
                 </q-card>
               </div>
+              <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center">
+                <q-card  class="my-card">
+                  <q-img height="500" :src="require('../../assets/categories/cercas/alambre-14.png')" >
+                    <div class="text-subtitle2 absolute-bottom text-center">
+                      Alambre galvanizado
+                    </div>
+                  </q-img>
+                  <q-card-actions>
+                    <q-btn to="/cercas-alambre" color="orange-14" class="full-width"  label="Ver"
+                    icon-right="search" />
+                  </q-card-actions>
+                </q-card>
+              </div>
           </div> <br><br>
           <div class="text-center" v-if="posts.length === 0">
       <p>
@@ -175,6 +189,46 @@
         </div>
       </div>
     </div>
+    <q-dialog v-model="icon">
+      <q-card>
+        <q-card-section class="row items-center bg-primary text-white">
+          <div class="text-h6">Instalación Malla Ciclónica</div>
+          <q-space />
+        </q-card-section>
+
+        <q-card-section >
+          <img width="400" :src="require('../../assets/cerca.png')"/>
+          <q-markup-table>
+            <tbody>
+              <tr>
+                <td class="text-left">1. Capucha simple</td>
+                <td class="text-left">7. Espada integral simple</td>
+              </tr>
+              <tr>
+                <td class="text-left">2. Abrazadera de arranque</td>
+                <td class="text-left">8. Alambre de púas</td>
+              </tr>
+              <tr>
+                <td class="text-left">3. Abrazadera de tensión</td>
+                <td class="text-left">9. Cercha de tensión</td>
+              </tr>
+              <tr>
+                <td class="text-left">4. Cople universal</td>
+                <td class="text-left">10. Malla ciclónica</td>
+              </tr>
+              <tr>
+                <td class="text-left">5. Barra superior y retenida</td>
+                <td class="text-left">11. Poste lineal</td>
+              </tr>
+              <tr>
+                <td class="text-left">6. Capucha marco</td>
+                <td class="text-left">12. Poste esquinero</td>
+              </tr>
+            </tbody>
+          </q-markup-table>
+        </q-card-section>
+      </q-card>
+    </q-dialog>
   </div>
 </template>
 
@@ -187,7 +241,11 @@ export default {
     },
   data () {
     return {
-        posts: []
+        posts: [],
+        icon: false,
+        bar: false,
+        bar2: false,
+        toolbar: false
     }
     
   },
