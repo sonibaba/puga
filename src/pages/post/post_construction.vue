@@ -10,30 +10,16 @@
           <div class="row q-col-gutter-md">
               <div class="col-12 col-sm-6 items-center col-md-3 col-lg-3 justify-center" v-for="(item,idex) in posts" :key="idex">
                 <q-card flat bordered class="my-card">
-
-                <q-img height="250" :src="require('../../assets/categories/'+item.image)" >
-                </q-img>
-                <q-separator/>
-                <q-card-section>
-                    <div class="text-h6 text-center">{{item.description}}</div> <br>
-                    <div class="text-h6 text-center text-orange-14">${{item.price}} MXN </div>
-                    <!-- <div class="text-subtitle2">{{item.description}}</div> -->
-                </q-card-section>
-                
-                <!-- <q-img  width="320px" height="250px" :src="require('../../assets/categories/'+item.image)" >
-                  <div class="absolute-bottom text-subtitle2 text-center">
-                    <b>{{item.name}}</b>
-                  </div>
-                </q-img>
-                <q-separator/>
-                <q-card-section>
-                    <div class="text-subtitle2 text-center">{{item.description}}</div>
-                    <div class="text-h6 text-center text-orange-14">${{item.price}} MXN </div>
-                    <div class="text-subtitle2 text-secondary">{{ item.title }}</div>
-                </q-card-section> -->
-                
-                <q-btn :to="'/product/'+item.id" color="orange-14" class="full-width"  label="Ver"
-                    icon-right="search" />
+                  <q-img height="250" :src="require('../../assets/categories/'+item.image)"/>
+                  <q-separator/>
+                  <q-card-section>
+                      <div class="text-h6 text-center">{{item.description}}</div>
+                      <div class="text-h6 text-center text-orange-14">${{item.price}} MXN </div>
+                      <div class="text text-center text-green-14">${{item.price_dom}} MXN a domicilio</div>
+                  </q-card-section>
+                  
+                  <q-btn :to="'/product/'+item.id" color="orange-14" class="full-width"  label="Ver"
+                      icon-right="search" />
                 </q-card>
               </div>
           </div> <br><br>
@@ -76,6 +62,7 @@ export default {
               this.posts.push(products[i])
              } 
            }
+           
   }
 }
 </script>

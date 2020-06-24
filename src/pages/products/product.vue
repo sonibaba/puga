@@ -17,7 +17,8 @@
             <q-card-section>
               <div class="row q-col-gutter-md justify-around">
               <div class=" col-12 col-sm-6 col-md-3 col-lg-3">
-                <img :src="require('../../assets/categories/'+product.image)" />
+                <q-img height="250" :src="require('../../assets/categories/'+product.image)" >
+                </q-img>
               </div>
 
               <div class="col-12 col-sm-4 col-md-3 col-lg-3">
