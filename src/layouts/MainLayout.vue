@@ -1,15 +1,21 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated class="bg-indico-10" v-if="!this.$q.platform.is.mobile">
+    <q-header elevated class="bg-indico-10 " v-if="!this.$q.platform.is.mobile">
         <q-toolbar class="GPL__toolbar" style="height: 64px">
-          <a title="Puga" href="/"><img src="../assets/puga-blanco.png" width="32" style="width: 52px; border-radius: 2em"></a> &nbsp; &nbsp;
-          <h6 class="my-font">Distribuidora de Cemento y Aceros PUGA</h6>
+          <a title="Puga" href="/"><img src="../assets/puga-blanco.png" style="width: 45px; border-radius: 2em"/></a> &nbsp; &nbsp;
+          <h6 class="my-font "><a class="text-white text-subtitle2">Distribuidora de Cemento y Aceros PUGA</a> &nbsp;</h6> 
           <q-space ></q-space>
-          <h6 class="my-font "> <q-icon name="local_phone"/><a class="text-white" href="tel:4813818097">Tel. (481)-3818097</a> &nbsp;</h6> 
+          <h6 class="my-font "> <q-icon name="local_phone"/><a class="text-white text-subtitle2" href="tel:4813818097">Tel. (481)-3818097</a> &nbsp;</h6> 
           <q-btn align="right" to="/shoppingCart" color="orange-14" bordered class="q-mr-xs" :label="'('+count+')'"
-              icon="shopping_cart" />
-          <a title="Puga" href="https://web.facebook.com/proyectos.puga"><img
-                  src="../assets/facebook_icon.png" width="32" style="width: 32px;"></a> 
+              icon="shopping_cart" />&nbsp;
+          <a title="Puga Facebook" href="https://web.facebook.com/proyectos.puga">
+            <img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" style="width: 36px;">
+          </a> &nbsp;&nbsp;
+          <a title="Puga Messenger" href="https://www.messenger.com/t/proyectos.puga">
+            <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Facebook_Messenger-512.png" style="width: 36px;">
+          </a> 
+
+        </a>
         </q-toolbar>
         <br>
             <q-btn flat to="/post_construction" label="Materiales"/>
@@ -26,6 +32,8 @@
             <q-btn flat to="/post_laminas" label="Laminas y Perfiles"/>
  
             <q-btn flat to="/post_herramientas"label="Herramientas"/>
+
+            <q-btn flat to="/aviso-de-privacidad" label="Aviso de privacidad"/>
       </q-header>
 
       <q-header elevated class="bg-indico-10" v-if="this.$q.platform.is.mobile">
@@ -43,7 +51,7 @@
               icon="shopping_cart" />
               &nbsp;
           <a title="Puga" href="/"><img
-                  src="../assets/puga-icon.png" width="32" style="width: 32px;"></a>
+                  src="../assets/puga-blanco.png" style="width: 32px; border-radius: 2em"></a>
         </q-toolbar>
       </q-header>
 
@@ -104,6 +112,11 @@
               <q-item-label>Herramientas</q-item-label>
             </q-item-section>
           </q-item>
+          <q-item clickable to="/aviso-de-privacidad">
+            <q-item-section>
+              <q-item-label>Aviso de prrivacidad</q-item-label>
+            </q-item-section>
+          </q-item>
           
 
           <q-separator class="q-mt-lg q-mb-lg" />
@@ -120,6 +133,13 @@
               </q-item-label>
             </q-item-section>
           </q-item>
+          <q-item clickable>
+            <q-item-section>
+              <q-item-label>
+                <a title="Puga Messenger" href="https://www.messenger.com/t/proyectos.puga">Messenger Puga</a> 
+              </q-item-label>
+            </q-item-section>
+          </q-item>
         </q-list>
       </q-scroll-area>
     </q-drawer>
@@ -129,29 +149,54 @@
     </q-page-container>
 
     <div class="footer">
-      <div class="contain">
-        <div class="col">
-          <h1></h1>
-          <ul>
-            <li>Pagina web desarrollada por:</li>
-            <li><a class="my-font" title="Facebook" href="https://web.facebook.com/jesusantonio.amadorsoni">Ing. Jesús Antonio Amador Soní</a> </li>
-            <li></li>
-            <li>Correo:</li>
-            <li><a>jesusantonioamadorsoni<br>@gmail.com</a></li>
-          </ul>
-        </div>
-        <div class="col"> <br>
-          <ul>
-            <li class="my-font">ACEROS GALVANIZADOS PUGA</li>>
+  <div class="contain">
+  <div class="col">
+    <h1>Página elaborada:</h1>
+    <ul>
+      <li class="my-font">TeamCoder</li>
+      <li class="my-font"><a href="/teamcoder">Mas info. click aquí</a></li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Secciones</h1>
+    <ul>
+      <li class="my-font"><a href="/post_construction">Materiales</a></li>
+      <li class="my-font"><a href="/post_mangueras">Mangueras</a></li>
+      <li class="my-font"><a href="/post_acero">Acero negro</a></li>
+      <li class="my-font"><a href="/post_clavos">Clavos</a></li>
+      <li class="my-font"><a href="/post_agropecuarios">Agropecuarios</a></li>
+      <li class="my-font"><a href="/post_cercas">Cercas</a></li>
+      <li class="my-font"><a href="/post_laminas">Laminas y perfiles</a></li>
+      <li class="my-font"><a href="/post_herramientas">Herramientas</a></li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Empresa</h1>
+    <ul>
+      <li class="my-font">ACEROS GALVANIZADOS PUGA</li>>
             <li class="my-font">Av. Ciro Purata #100 Col. Cuauhtémoc CP 79040</li>
             <li class="my-font"><a href="tel:4813818097">Tel. (481)-3818097</a></li>
-            <li><a class="my-font" title="Puga" href="https://web.facebook.com/proyectos.puga"><img
-                  src="https://image.flaticon.com/icons/svg/124/124010.svg" width="32" style="width: 32px;"></a> </li>
-          </ul>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Social</h1>
+    <ul>
+      <li>
+        <a class="my-font" title="Puga" href="https://web.facebook.com/proyectos.puga">
+          <img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" width="32" style="width: 32px;">
+        </a>
+      </li>
+      <li>
+        <a class="my-font" title="Puga" href="https://www.messenger.com/t/proyectos.puga">
+          <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Facebook_Messenger-512.png" width="32" style="width: 32px;">
+        </a>
+      </li>
+    </ul>
+  </div>
+<div class="clearfix"></div>
+</div>
+</div>
+<!-- END OF FOOTER -->
   </q-layout>
 </template>
 
@@ -199,7 +244,7 @@ export default {
 
   a{
     text-decoration: none;
-    color:  white;
+    color: #999999;
   }
   .my-font {
     font-family: 'sans';
@@ -208,20 +253,11 @@ export default {
   * {
     font-family: 'sans';
   }
-
-  .dummy_page {
-    height: 200px;
-    width: 100%;
-    background-color: #f0f0f0;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 60px 0px;
-  }
-
-  /* STYLES SPECIFIC TO FOOTER  */
   .footer {
     width: 100%;
     position: relative;
+    left: 0;
+    bottom: 0;
     height: auto;
     background-color: #070617;
   }
@@ -283,6 +319,12 @@ export default {
   }
 
   .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .footer .col ul li:hover a{
     color: #ffffff;
     transition: .1s;
     -webkit-transition: .1s;

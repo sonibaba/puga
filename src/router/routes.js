@@ -8,10 +8,17 @@ const routes = [
     ]
   },
   {
-    path: '/mision_vision',
+    path: '/aviso-de-privacidad',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/information/mision_vision.vue') }
+      { path: '', component: () => import('pages/information/aviso.vue') }
+    ]
+  },
+  {
+    path: '/teamcoder',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/information/teamcoder.vue') }
     ]
   },
   {

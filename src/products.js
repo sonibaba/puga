@@ -238,8 +238,8 @@ const materiales =  [
     "categorie": "mangueras-agua",
     "name": "Manguera para agua 1/2 c-40",
     "description": "Rollo de manguera para agua 1/2 c-40",
-    "price": 365,
-    "price_dom": 365,
+    "price": 431,
+    "price_dom": 431,
     "image": "mangueras/agua-1-2.png"
   },
   {
@@ -247,8 +247,8 @@ const materiales =  [
     "categorie": "mangueras-agua",
     "name": "Manguera para agua 3/4 c-40",
     "description": "Rollo de manguera para agua 3/4 c-40",
-    "price": 548,
-    "price_dom": 548,
+    "price": 562,
+    "price_dom": 562,
     "image": "mangueras/agua-3-4.png"
   },
   {
@@ -256,7 +256,7 @@ const materiales =  [
     "categorie": "mangueras-agua",
     "name": "Manguera para agua 1 pulgada c-40",
     "description": "Rollo de manguera para agua de 1 pulgada c-40",
-    "price": 804,
+    "price": 824,
     "price_dom": 804,
     "image": "mangueras/agua-1-pul.png"
   },
@@ -265,8 +265,8 @@ const materiales =  [
     "categorie": "mangueras-agua",
     "name": "Manguera para agua 1 1/4 de pulgada 50 metros",
     "description": "Rollo de manguera para agua de 1 1/4 de pulgada 50 metros",
-    "price": 621,
-    "price_dom": 621,
+    "price": 637,
+    "price_dom": 637,
     "image": "mangueras/agua-1-1-4-50mts.png"
   },
   {
@@ -274,8 +274,8 @@ const materiales =  [
     "categorie": "mangueras-agua",
     "name": "Manguera para agua 1 1/4 de pulgada 100 metros",
     "description": "Rollo de manguera para agua de 1 1/4 de pulgada 100 metros",
-    "price": 1206,
-    "price_dom": 1206,
+    "price": 1236,
+    "price_dom": 1236,
     "image": "mangueras/agua-1-1-4-100mts.png"
   },
   {
@@ -283,8 +283,8 @@ const materiales =  [
     "categorie": "mangueras-agua",
     "name": "Manguera para agua 1 1/2 de pulgada 50 metros",
     "description": "Rollo de manguera para agua de 1 1/2 de pulgada 50 metros",
-    "price": 804,
-    "price_dom": 804,
+    "price": 824,
+    "price_dom": 824,
     "image": "mangueras/agua-1-1-2-50mts.png"
   },
   {
@@ -292,8 +292,8 @@ const materiales =  [
     "categorie": "mangueras-agua",
     "name": "Manguera para agua 1 1/2 de pulgada 100 metros",
     "description": "Rollo de manguera para agua de 1 1/2 de pulgada 100 metros",
-    "price": 1608,
-    "price_dom": 1608,
+    "price": 1648,
+    "price_dom": 1648,
     "image": "mangueras/agua-1-1-2-100mts.png"
   },
   {
@@ -544,8 +544,8 @@ const materiales =  [
     "categorie": "agropecuarios-borreguera",
     "name": "Borreguera 1 x 50 metros",
     "description": "Rollo de malla borreguera 1 metro de alto x 50 metros",
-    "price": 714,
-    "price_dom": 714,
+    "price": 785,
+    "price_dom": 785,
     "image": "agropecuarios/borreguera-1.png"
   },
   {
@@ -553,17 +553,17 @@ const materiales =  [
     "categorie": "agropecuarios-borreguera",
     "name": "Borreguera 1.20 x 50",
     "description": "Rollo de malla borreguera 1.20 metros de alto x 50 metros",
-    "price": 863,
-    "price_dom": 863,
+    "price": 949,
+    "price_dom": 949,
     "image": "agropecuarios/borreguera-1-20.png"
   },
   {
     "id": 63,
     "categorie": "agropecuarios-borreguera",
     "name": "Borreguera 1.67 x 50",
-    "description": "Rollo de malla borreguera 1.75 metros de alto x 50 metros",
-    "price": 1105,
-    "price_dom": 1105,
+    "description": "Rollo de malla borreguera 1.67 metros de alto x 50 metros",
+    "price": 1215,
+    "price_dom": 1215,
     "image": "agropecuarios/borreguera-1-75.png"
   },
   {
@@ -616,8 +616,8 @@ const materiales =  [
     "categorie": "agropecuarios-multimalla",
     "name": "Multimalla 5 x 5 - 20",
     "description": "Multimalla 5 x 5 - 20, un metro de alto, cal. 14",
-    "price": 1087,
-    "price_dom": 1087,
+    "price": 1143,
+    "price_dom": 1143,
     "image": "agropecuarios/multimalla-1.png"
   },
   {
@@ -625,8 +625,8 @@ const materiales =  [
     "categorie": "agropecuarios-multimalla",
     "name": "Multimalla 5 x 10 - 20",
     "description": "Multimalla 5 x 10 - 20, 1.22 metros de alto, cal. 14",
-    "price": 1014,
-    "price_dom": 1014,
+    "price": 1416,
+    "price_dom": 1416,
     "image": "agropecuarios/multimalla-1-22.png"
   },
   {
@@ -670,8 +670,8 @@ const materiales =  [
     "categorie": "agropecuarios-puas",
     "name": "Alambre de púas 351 metros calibre 12.5",
     "description": "Rollo de alambre de puas 351 metros",
-    "price": 852,
-    "price_dom": 852,
+    "price": 894,
+    "price_dom": 894,
     "image": "agropecuarios/puas-351.png"
   },
   {
@@ -679,8 +679,8 @@ const materiales =  [
     "categorie": "agropecuarios-puas",
     "name": "Alambre de púas 310 metros calibre 12.5",
     "description": "Rollo de alambre de puas 310 metros",
-    "price": 752,
-    "price_dom": 752,
+    "price": 789,
+    "price_dom": 789,
     "image": "agropecuarios/puas-310.png"
   },
   {
@@ -688,8 +688,8 @@ const materiales =  [
     "categorie": "agropecuarios-puas",
     "name": "Alambre de púas vaquero 250 metros calibre 15.5",
     "description": "Rollo de alambre vaquero de puas 250 metros calibre 15.5",
-    "price": 442,
-    "price_dom": 442,
+    "price": 486,
+    "price_dom": 486,
     "image": "agropecuarios/puas-250.png"
   },
   {
@@ -697,8 +697,8 @@ const materiales =  [
     "categorie": "agropecuarios-puas",
     "name": "Alambre de púas san 360 metros calibre 15.5",
     "description": "Rollo de alambre san de puas 360 metros calibre 15.5",
-    "price": 540,
-    "price_dom": 540,
+    "price": 567,
+    "price_dom": 567,
     "image": "agropecuarios/puas-360.png"
   },
   {
@@ -769,8 +769,8 @@ const materiales =  [
     "categorie": "cercas-ciclon",
     "name": "Malla ciclonica 1 metro de alto",
     "description": "Malla ciclonica 1 metro de alto x 20 metros de largo",
-    "price": 620,
-    "price_dom": 620,
+    "price": 665,
+    "price_dom": 665,
     "image": "cercas/ciclonica-1.png"
   },
   {
@@ -778,8 +778,8 @@ const materiales =  [
     "categorie": "cercas-ciclon",
     "name": "Malla ciclonica 1.50 metro de alto",
     "description": "Malla ciclonica 1.50 metro de alto x 20 metros de largo",
-    "price": 930,
-    "price_dom": 930,
+    "price": 997,
+    "price_dom": 997,
     "image": "cercas/ciclonica-1-50.png"
   },
   {
@@ -787,8 +787,8 @@ const materiales =  [
     "categorie": "cercas-ciclon",
     "name": "Malla ciclonica 1.75 metro de alto",
     "description": "Malla ciclonica 1.75 metro de alto x 20 metros de largo",
-    "price": 987,
-    "price_dom": 987,
+    "price": 1208,
+    "price_dom": 1208,
     "image": "cercas/ciclonica-1-75.png"
   },
   {
@@ -796,8 +796,8 @@ const materiales =  [
     "categorie": "cercas-ciclon",
     "name": "Malla ciclonica 2 metro de alto",
     "description": "Malla ciclonica 2 metro de alto x 20 metros de largo",
-    "price": 1240,
-    "price_dom": 1240,
+    "price": 1331,
+    "price_dom": 1331,
     "image": "cercas/ciclonica-2.png"
   },
   {
@@ -1092,7 +1092,7 @@ const materiales =  [
     "id": 122,
     "categorie": "cercas-accesorios-malla",
     "name": "Abrazadera de arranque 2 pulgadas",
-    "description": "Abrazadera de tension de 2 pulgadas",
+    "description": "Abrazadera de arranque de 2 pulgadas",
     "price": 4,
     "price_dom": 4,
     "image": "cercas/abrazadera-2.png"
@@ -1370,19 +1370,19 @@ const materiales =  [
   {
     "id": 153,
     "categorie": "cercas-cinta",
-    "name": "Cinta decorativa o de privacidad verde",
+    "name": "Cinta decorativa o de privacidad gris",
     "description": "Cinta decorativa o de privacidad 3 metros cuadrados color gris",
-    "price": 290,
-    "price_dom": 290,
+    "price": 127,
+    "price_dom": 127,
     "image": "cercas/decorativa-gris-6.png"
   },
   {
     "id": 154,
     "categorie": "cercas-cinta",
-    "name": "Cinta decorativa o de privacidad verde",
+    "name": "Cinta decorativa o de privacidad azul",
     "description": "Cinta decorativa o de privacidad 6 metros cuadrados color azul",
-    "price": 127,
-    "price_dom": 127,
+    "price": 290,
+    "price_dom": 290,
     "image": "cercas/decorativa-azul-3.png"
   },
   {
@@ -1390,8 +1390,8 @@ const materiales =  [
     "categorie": "laminas-galvanizada",
     "name": "Lamina galvanizada 3 x 10 calibre 30",
     "description": "Lamina galvanizada 3 x 10 (85 x 3 mts) calibre 30, forma estructural, ",
-    "price": 242,
-    "price_dom": 242,
+    "price": 253,
+    "price_dom": 253,
     "image": "laminas/lamina-10-30.png"
   },
   {
@@ -1399,8 +1399,8 @@ const materiales =  [
     "categorie": "laminas-galvanizada",
     "name": "Lamina galvanizada 3 x 14 calibre 30",
     "description": "Lamina galvanizada 3 x 14 (85 x 3 mts) calibre 30, forma estructural, ",
-    "price": 354,
-    "price_dom": 354,
+    "price": 370,
+    "price_dom": 370,
     "image": "laminas/lamina-14-30.png"
   },
   {
@@ -1408,8 +1408,8 @@ const materiales =  [
     "categorie": "laminas-galvanizada",
     "name": "Lamina galvanizada 3 x 20 calibre 30",
     "description": "Lamina galvanizada 3 x 20 (85 x 3 mts) calibre 30, forma estructural, ",
-    "price": 506,
-    "price_dom": 506,
+    "price": 529,
+    "price_dom": 529,
     "image": "laminas/lamina-20-30.png"
   },
   {
@@ -1453,8 +1453,8 @@ const materiales =  [
     "categorie": "laminas-galvateja",
     "name": "Lamina galvateja 4 x 10 calibre 26",
     "description": "Lamina galvateja 4 x 10 (1 x 3 mts) calibre 26, color ladrillo",
-    "price": 630,
-    "price_dom": 630,
+    "price": 693,
+    "price_dom": 693,
     "image": "laminas/galvateja-10.png"
   },
   {
@@ -1462,8 +1462,8 @@ const materiales =  [
     "categorie": "laminas-galvateja",
     "name": "Lamina galvateja 4 x 14 calibre 26",
     "description": "Lamina galvateja 4 x 14 (1 x 3 mts) calibre 26, color ladrillo",
-    "price": 881,
-    "price_dom": 881,
+    "price": 970,
+    "price_dom": 970,
     "image": "laminas/galvateja-14.png"
   },
   {
@@ -1471,8 +1471,8 @@ const materiales =  [
     "categorie": "laminas-galvateja",
     "name": "Lamina galvateja 4 x 20 calibre 26",
     "description": "Lamina galvateja 4 x 20 (1 x 3 mts) calibre 26, color ladrillo",
-    "price": 1337,
-    "price_dom": 1337,
+    "price": 1471,
+    "price_dom": 1471,
     "image": "laminas/galvateja-20.png"
   },
   {

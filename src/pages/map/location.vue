@@ -1,9 +1,15 @@
 <template>
     <div>
-        <div ref="googleMap" id="map"></div>
+        <!-- <div ref="googleMap" id="map"></div> -->
+        <q-parallax>
+      <template v-slot:media>
+        <img src="../../assets/mapa.png">
+      </template>
+    </q-parallax>
+      </q-img>
         <div class="q-pt-none q-pr-none q-gutter-xl">
           <q-banner class="bg-white-8 text-black">
-            <h4 class="text-center text-secondary my-font">Dirección:</h4>
+            <p class="text-center text-h4 text-secondary my-font">Dirección:</p>
             <p class="text-center text-secondary my-font">Av. Ciro Purata #100 Col. Cuauhtémoc CP 79040 <br> Ciudad Valles, San Luis Potosi</p>
             <p class="text-center text-secondary my-font"> <b> Teléfono: </b> (481)-3818097</p>
           </q-banner>
