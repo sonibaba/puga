@@ -4,6 +4,10 @@
       <div class="row q-col-gutter-lg">
         <div class="col-12 col-sm-6 col-md-8 col-lg-8">
           <q-carousel animated v-model="slide" arrows navigation infinity autoplay height="505px" infinite>
+            <q-carousel-slide :name="11" :img-src="require('../assets/promo1.jpg')">
+            </q-carousel-slide>
+            <q-carousel-slide :name="12" :img-src="require('../assets/promo2.jpg')">
+            </q-carousel-slide>
             <q-carousel-slide :name="1" :img-src="require('../assets/1.jpeg')">
             </q-carousel-slide>
             <q-carousel-slide :name="2" :img-src="require('../assets/2.jpg')">

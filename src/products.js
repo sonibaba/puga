@@ -49,8 +49,8 @@ const materiales =  [
     "categorie": "materiales",
     "name": "Cemento Cruz Azul 50kg",
     "description": "Cemento gris marca cruz azul",
-    "price": 149,
-    "price_dom": 155,
+    "price": 155,
+    "price_dom": 158,
     "image": "materiales/cruzazul.png"
   },
   {
@@ -76,8 +76,8 @@ const materiales =  [
     "categorie": "materiales",
     "name": "Cemento Moctezuma 50 kg",
     "description": "Cemento gris marca Moctezuma",
-    "price": 152,
-    "price_dom": 155,
+    "price": 155,
+    "price_dom": 158,
     "image": "materiales/moctezuma.png"
   },
   {
@@ -110,10 +110,10 @@ const materiales =  [
   {
     "id": 13,
     "categorie": "materiales",
-    "name": "Imprecem ",
-    "description": "Imprecem marca Monterrey",
-    "price": 166,
-    "price_dom": 166,
+    "name": "Impercem ",
+    "description": "Impercem marca Monterrey",
+    "price": 170,
+    "price_dom": 175,
     "image": "materiales/impercem.png"
   },
   {
@@ -121,8 +121,8 @@ const materiales =  [
     "categorie": "materiales",
     "name": "Cemento Monterrey 50 kg.",
     "description": "Cemento gris marca Monterrey",
-    "price": 166,
-    "price_dom": 166,
+    "price": 170,
+    "price_dom": 175,
     "image": "materiales/monterrey.png"
   },
   {
@@ -130,8 +130,8 @@ const materiales =  [
     "categorie": "materiales",
     "name": "Multiplast",
     "description": "Multiplast marca Cemex 40kg",
-    "price": 143,
-    "price_dom": 143,
+    "price": 155,
+    "price_dom": 155,
     "image": "materiales/multiplast.png"
   },
   {
@@ -319,8 +319,8 @@ const materiales =  [
     "categorie": "acero-varilla",
     "name": " Varilla 3/8",
     "description": "Varilla corrugada de 3/8",
-    "price": 113,
-    "price_dom": 113,
+    "price": 106,
+    "price_dom": 106,
     "image": "acero/varilla-3-8.png"
   },
   {
@@ -544,8 +544,8 @@ const materiales =  [
     "categorie": "agropecuarios-borreguera",
     "name": "Borreguera 1 x 50 metros",
     "description": "Rollo de malla borreguera 1 metro de alto x 50 metros",
-    "price": 785,
-    "price_dom": 785,
+    "price": 807,
+    "price_dom": 807,
     "image": "agropecuarios/borreguera-1.png"
   },
   {
@@ -553,8 +553,8 @@ const materiales =  [
     "categorie": "agropecuarios-borreguera",
     "name": "Borreguera 1.20 x 50",
     "description": "Rollo de malla borreguera 1.20 metros de alto x 50 metros",
-    "price": 949,
-    "price_dom": 949,
+    "price": 897,
+    "price_dom": 897,
     "image": "agropecuarios/borreguera-1-20.png"
   },
   {
@@ -589,8 +589,8 @@ const materiales =  [
     "categorie": "agropecuarios-gallinera",
     "name": "Pollera 1.00 x 45",
     "description": "Rollo de malla pollera 1 metro de alto x 45",
-    "price": 793,
-    "price_dom": 793,
+    "price": 833,
+    "price_dom": 833,
     "image": "agropecuarios/pollera-1.png"
   },
   {
@@ -670,8 +670,8 @@ const materiales =  [
     "categorie": "agropecuarios-puas",
     "name": "Alambre de púas 351 metros calibre 12.5",
     "description": "Rollo de alambre de puas 351 metros",
-    "price": 894,
-    "price_dom": 894,
+    "price": 852,
+    "price_dom": 852,
     "image": "agropecuarios/puas-351.png"
   },
   {
@@ -679,8 +679,8 @@ const materiales =  [
     "categorie": "agropecuarios-puas",
     "name": "Alambre de púas 310 metros calibre 12.5",
     "description": "Rollo de alambre de puas 310 metros",
-    "price": 789,
-    "price_dom": 789,
+    "price": 752,
+    "price_dom": 752,
     "image": "agropecuarios/puas-310.png"
   },
   {
@@ -769,8 +769,8 @@ const materiales =  [
     "categorie": "cercas-ciclon",
     "name": "Malla ciclonica 1 metro de alto",
     "description": "Malla ciclonica 1 metro de alto x 20 metros de largo",
-    "price": 665,
-    "price_dom": 665,
+    "price": 626,
+    "price_dom": 626,
     "image": "cercas/ciclonica-1.png"
   },
   {
@@ -778,8 +778,8 @@ const materiales =  [
     "categorie": "cercas-ciclon",
     "name": "Malla ciclonica 1.50 metro de alto",
     "description": "Malla ciclonica 1.50 metro de alto x 20 metros de largo",
-    "price": 997,
-    "price_dom": 997,
+    "price": 940,
+    "price_dom": 940,
     "image": "cercas/ciclonica-1-50.png"
   },
   {
@@ -994,8 +994,8 @@ const materiales =  [
     "categorie": "cercas-tubo",
     "name": "Tubo galvanizado 3 pulgadas",
     "description": "Tubo galvanizado 3 pulgadas x 6 metros de largo",
-    "price": 477,
-    "price_dom": 477,
+    "price": 505,
+    "price_dom": 505,
     "image": "cercas/tubo-3.png"
   },
   {
@@ -1003,8 +1003,8 @@ const materiales =  [
     "categorie": "cercas-tubo",
     "name": "Tubo galvanizado 2 1/2 pulgadas",
     "description": "Tubo galvanizado 2 1/2 pulgadas x 6 metros de largo",
-    "price": 442,
-    "price_dom": 442,
+    "price": 447,
+    "price_dom": 447,
     "image": "cercas/tubo-2-1-2.png"
   },
   {
@@ -1138,8 +1138,8 @@ const materiales =  [
     "categorie": "cercas-tapon",
     "name": "Tapón simple 2 pulgadas",
     "description": "Tapón simple 2 pulgadas",
-    "price": 9,
-    "price_dom": 9,
+    "price": 109,
+    "price_dom": 10,
     "image": "cercas/tapon-simple-1-1-2.png"
   },
   {
@@ -1147,8 +1147,8 @@ const materiales =  [
     "categorie": "cercas-tapon",
     "name": "Tapón simple 2 1/2 pulgadas",
     "description": "Tapón simple 2 1/2 pulgadas",
-    "price": 12,
-    "price_dom": 12,
+    "price": 14,
+    "price_dom": 14,
     "image": "cercas/tapon-simple-2-1-2.png"
   },
   {
@@ -1156,8 +1156,8 @@ const materiales =  [
     "categorie": "cercas-tapon",
     "name": "Tapón simple 3 pulgadas",
     "description": "Tapón simple 3 pulgadas",
-    "price": 16,
-    "price_dom": 16,
+    "price": 17,
+    "price_dom": 17,
     "image": "cercas/tapon-simple-1-1-3.png"
   },
   {
@@ -1336,8 +1336,8 @@ const materiales =  [
     "categorie": "cercas-accesorios-malla",
     "name": "Pasador mouser",
     "description": "Pasador mouser",
-    "price": 84,
-    "price_dom": 84,
+    "price": 80,
+    "price_dom": 80,
     "image": "cercas/pasador-mouser.png"
   },
   {
